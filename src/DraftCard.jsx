@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './DraftCard.css';
-// import PickCell from './PickCell';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Table, Image, Jumbotron } from 'react-bootstrap';
 
 export default class DraftCard extends Component {
@@ -209,6 +209,9 @@ export default class DraftCard extends Component {
                     <Row>
                         <Col>
                             <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://twitter.com/zmknox">Zach Knox</a>.</h5>
+                            <Link to={`/`} >
+                                <h5 className='text-center'>⬅ See more draft scorecards</h5>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

@@ -29,6 +29,8 @@ class Landing extends Component {
                 <Image className='Hero-Image text-center' src='/img/draft-shield.png' fluid />
 
                 {this.renderCardLinks()}
+                <br />
+                <h5 className="text-center"><a href="https://zachknox.com/bingo/drafts/">⬅ View Legacy Draft Scorecards</a></h5>
             </Container>
         );
     }

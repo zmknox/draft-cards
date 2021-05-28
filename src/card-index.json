@@ -3,10 +3,16 @@
     "banner": "...",
     "cards": [
         {
-            "name": "The April 2021 Apple Event Draft",
+            "name": "Apple WWDC 2021 Keynote",
             "date": "...",
             "icon": "...",
-            "card": "upgrade-apple042021"
+            "card": "apple062021"
+        },
+        {
+            "name": "Apple April 2021 \"Spring Loaded.\" Event",
+            "date": "...",
+            "icon": "...",
+            "card": "apple042021"
         }
     ]
 }
