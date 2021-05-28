@@ -1,14 +1,16 @@
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import './bootstrap/bootstrap.min.css';
-import DraftCard from './DraftCard'
-
-import * as cardIndex from './card-index.json';
+import Landing from './Landing';
+import CardPage from './CardPage';
 
 function App() {
   return (
-    <div className="App">
-      <DraftCard cardData={cardIndex[0].cards[0]} />
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/card' component={CardPage} />
+        <Route path='/' component={Landing} />
+      </Switch>
+    </Router>
   );
 }
 

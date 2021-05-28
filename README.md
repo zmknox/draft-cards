@@ -14,6 +14,8 @@ There are a lot of scripts in the `package.json` that were provided by Create Re
 
 This project's code is licensed under the BSD 3-clause license. You can read more about it in `LICENSE`.
 
+This project's image resources are **NOT** licensed freely, and are used with permission from Relay FM.
+
 This project's content is based on the [Upgrade podcast from Relay FM](https://relay.fm/upgrade). Used with permission.
 
 ## Authors

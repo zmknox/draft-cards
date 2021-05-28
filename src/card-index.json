@@ -1,14 +1,12 @@
-[
-    {
-        "name": "Upgrade Draft",
-        "banner": "...",
-        "cards": [
-            {
-                "name": "The April 2021 Apple Event Draft",
-                "date": "...",
-                "icon": "...",
-                "card": "upgrade-apple042021"
-            }
-        ]
-    }
-]
+{
+    "name": "Upgrade Draft",
+    "banner": "...",
+    "cards": [
+        {
+            "name": "The April 2021 Apple Event Draft",
+            "date": "...",
+            "icon": "...",
+            "card": "upgrade-apple042021"
+        }
+    ]
+}

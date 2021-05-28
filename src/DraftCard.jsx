@@ -8,7 +8,7 @@ export default class DraftCard extends Component {
         super(props);
 
         this.state = {
-            card: require(`./cards/${props.cardData.card}.json`)
+            card: require(`./cards/${props.card}.json`)
         }
         this.handleSelection = this.handleSelection.bind(this);
         this.makeCell = this.makeCell.bind(this);
@@ -126,13 +126,13 @@ export default class DraftCard extends Component {
         return (
             <>
                 <Jumbotron fluid className="jumbotron-padding header-bg">
-                    <Container className="justify-content-center">
+                    <Container className="justify-content-center text-center">
                         <h1 className="white-header bold-header">{this.state.card.name}</h1>
                         <h3 className="white-header">{this.state.card.preLinkText}<a href={this.state.card.link}>{this.state.card.linkText}</a></h3>
                     </Container>
                 </Jumbotron>
                 <Container>
-                    <Row className="justify-content-center">
+                    <Row className="justify-content-center text-center">
                         <Col>
                             <h5>Select each entry to award points, or mark them wrong.</h5>
                         </Col>
