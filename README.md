@@ -4,7 +4,7 @@ React implementation of my [Upgrade Draft Scorecards](https://zachknox.com/bingo
 
 ## Local Development
 
-You'll need Node.js 14 or newer. YOu can install dependencies with `yarn`, and start the application with `yarn start`.
+You'll need Node.js 12 or newer. You can install dependencies with `yarn`, and start the application with `yarn start`.
 
 To build a production ready version of this app, run `yarn build`.
 
