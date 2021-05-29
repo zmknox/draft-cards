@@ -53,7 +53,7 @@ tr {
 	  color: var(--body-text)
   }
 
-  tr a:link, a:visited {
+  tr a:link, tr a:visited {
 	  color: #7c99af !important;
   }
 }
@@ -84,8 +84,8 @@ tr {
 .white-header {
 	color: #343E47;
 }
-.white-header a:link, a:visited {
-	color: #333F48;
+.white-header a:link, .white-header a:visited {
+	color: #333F48 !important;
 }
 
 a:link, a:visited {
