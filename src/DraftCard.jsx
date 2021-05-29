@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './DraftCard.css';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Table, Image, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col, Table, Image, Jumbotron, Button } from 'react-bootstrap';
 
 export default class DraftCard extends Component {
     constructor(props) {
@@ -12,6 +12,8 @@ export default class DraftCard extends Component {
         }
         this.handleSelection = this.handleSelection.bind(this);
         this.makeCell = this.makeCell.bind(this);
+        this.renderButton = this.renderButton.bind(this);
+        this.setResults = this.setResults.bind(this);
         let sections = [];
         for (let section of this.state.card.sections) {
             let entries = [];
@@ -70,6 +72,41 @@ export default class DraftCard extends Component {
 
     }
 
+    setResults() {
+        let totals = [];
+        for (let _ of this.state.card.contestants) {
+            totals.push(0);
+        }
+
+        let sections = [];
+        for (let section of this.state.card.sections) {
+            let entries = [];
+            console.log(section);
+            for (let entry of section.entries) {
+                let cells = [];
+                let index = 0; // yes this is dumb
+                for (let pick of entry) {
+                    if (pick.correct) {
+                        cells.push('correct')
+                        if (section.graded) {
+                            totals[index] += 1;
+                        }
+                    } else {
+                        cells.push('wrong');
+                    }
+                    index += 1;
+                }
+                entries.push(cells);
+            }
+            sections.push(entries);
+        }
+        
+        this.setState({
+            sections: sections,
+            totals: totals
+        })
+    }
+
     makeCell(pick, sectionIndex, entryIndex, cellIndex, graded) {
         let cellState = 'white-cell';
         if (this.state.sections[sectionIndex][entryIndex][cellIndex] === 'correct') {
@@ -80,6 +117,19 @@ export default class DraftCard extends Component {
         return (
             <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded)} className={cellState + " col-5 text-center"}>{pick.pick}</th>
         )
+    }
+
+    renderButton() {
+        if (this.state.card.finished === true) {
+            return (
+                <Row className="justify-content-center">
+                    <Col bsPrefix="col-">
+                        <Button onClick={this.setResults} variant="dark">View Official Rulings</Button>
+                    </Col>
+                </Row>
+            )
+        }
+        return <></>
     }
 
     renderSection(section, round, sectionIndex) {
@@ -205,6 +255,7 @@ export default class DraftCard extends Component {
                             </Table>
                         </Col>
                     </Row>
+                    {this.renderButton()}
                     <br />
                     <Row>
                         <Col>
