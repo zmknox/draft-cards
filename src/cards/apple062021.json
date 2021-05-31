@@ -129,6 +129,52 @@
             ]
         },
         {
+            "name": "Other Picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
             "name": "Tiebreaker: Will the event be over or under TKTK minutes?",
             "graded": false,
             "roundLabel": "Tie?",
