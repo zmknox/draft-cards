@@ -17,66 +17,66 @@
     ],
     "sections": [
         {
-            "name": "iOS and iPadOS Picks",
+            "name": "iOS and iPadOS picks",
             "graded": true,
             "entries": [
                 [
                     {
-                        "pick": "Draft TK",
+                        "pick": "Overhaul of notifications (new features or tools to customize)",
                         "correct": true
                     },
                     {
-                        "pick": "Draft TK",
+                        "pick": "Home screen widgets on iPad",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "More options to change default apps",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "More size options for widgets",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "At least one Apple “pro app” brought to iPadOS from macOS",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "App Library on iPad",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "More user-controllable design/theming options",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "New features for the Messages app",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "New features for FaceTime",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Redesign of the Home app",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Mail app updated with more modern features (such as snoozing or automatic sorting)",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "The core of iPadOS remains mostly unchanged (no multitasking changes or external display support)",
                         "correct": true
                     }
                 ]
@@ -88,104 +88,104 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "TestFlight for macOS",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Shortcuts for macOS",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "New Apple Silicon Mac chip introduced",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "MacBook Pro 14” with Apple Silicon",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Major improvements to Control Center",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "At least one new/updated Apple system app based on Catalyst",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "New Apple external display announced",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "New Mac Pro pre-announced",
                         "correct": true
                     }
                 ]
             ]
         },
         {
-            "name": "Other Picks",
+            "name": "Other picks",
             "graded": true,
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "Home segment of keynote",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Focus on mental health features in watchOS",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Significant improvements to SwiftUI",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "New wireless audio streaming protocol for AirPods",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Always-on watch displays improved",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Podcast subscriptions get a plug",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Third party Apple Watch faces",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "TV app on tvOS redesigned",
                         "correct": true
                     }
                 ]
             ]
         },
         {
-            "name": "Tiebreaker: Will the event be over or under TKTK minutes?",
+            "name": "Tiebreaker: Will the event be over or under 85 minutes?",
             "graded": false,
             "roundLabel": "Tie?",
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "Over",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Under or equal",
                         "correct": true
                     }
                 ]
