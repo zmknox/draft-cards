@@ -3,6 +3,8 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 355",
     "link": "https://relay.fm/upgrade/355",
+    "finished": true,
+    "contested": true,
     "contestants": [
         {
             "name": "Jason",
@@ -33,7 +35,7 @@
                 [
                     {
                         "pick": "More options to change default apps",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "More size options for widgets",
@@ -43,7 +45,7 @@
                 [
                     {
                         "pick": "At least one Apple “pro app” brought to iPadOS from macOS",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "App Library on iPad",
@@ -53,7 +55,7 @@
                 [
                     {
                         "pick": "More user-controllable design/theming options",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New features for the Messages app",
@@ -67,7 +69,7 @@
                     },
                     {
                         "pick": "Redesign of the Home app",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -77,7 +79,7 @@
                     },
                     {
                         "pick": "The core of iPadOS remains mostly unchanged (no multitasking changes or external display support)",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -99,31 +101,31 @@
                 [
                     {
                         "pick": "New Apple Silicon Mac chip introduced",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "MacBook Pro 14” with Apple Silicon",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Major improvements to Control Center",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "At least one new/updated Apple system app based on Catalyst",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "New Apple external display announced",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New Mac Pro pre-announced",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -145,11 +147,11 @@
                 [
                     {
                         "pick": "Significant improvements to SwiftUI",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New wireless audio streaming protocol for AirPods",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -159,17 +161,17 @@
                     },
                     {
                         "pick": "Podcast subscriptions get a plug",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Third party Apple Watch faces",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "TV app on tvOS redesigned",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -186,7 +188,7 @@
                     },
                     {
                         "pick": "Under or equal",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
