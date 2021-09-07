@@ -1,0 +1,157 @@
+{
+    "name": "The Upgrade September 2021 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 370",
+    "link": "https://relay.fm/upgrade/370",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Apple Watch picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under XX minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Under or equal",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
