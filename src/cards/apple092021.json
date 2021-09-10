@@ -24,41 +24,41 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "Higher-frame-rate display comes to pro iPhone models",
                         "correct": true
                     },
                     {
-                        "pick": "",
-                        "correct": true
-                    }
-                ],
-                [
-                    {
-                        "pick": "",
-                        "correct": false
-                    },
-                    {
-                        "pick": "",
+                        "pick": "New phones are the “iPhone 13” series",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Non-pro iPhone gains LIDAR sensor",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "Pro phones get a camera feature that other phones do not have",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Always-on display comes to pro iPhone models",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "Notch called out as being smaller on at least one model",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Phones match all iPhone 12 price points",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Some Phones cost more than current iPhone 12 price points",
                         "correct": true
                     }
                 ]
@@ -70,31 +70,31 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "New Apple Watch shipping in September",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Apple Watch design updated with flat sides",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Apple Watch screens increase in size",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "New watch faces added",
                         "correct": false
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Apple does not announce changes to band compatibility",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "No new health sensors are introduced",
                         "correct": false
                     }
                 ]
@@ -106,48 +106,48 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "We pay a visit to Apple’s “Chip Lab”",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "New AirPods introduced",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "The stage of the Steve Jobs Theater is seen",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "Apple TV+ trailers/promo video is shown",
                         "correct": false
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "We see Ted Lasso himself",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "The rainbow stage at the center of Apple Park is seen",
                         "correct": false
                     }
                 ]
             ]
         },
         {
-            "name": "Tiebreaker: Will the event be over or under XX minutes?",
+            "name": "Tiebreaker: Will the event be over or under 72 minutes?",
             "graded": false,
             "roundLabel": "Tie?",
             "entries": [
                 [
                     {
-                        "pick": "Over",
+                        "pick": "Over or equal",
                         "correct": true
                     },
                     {
-                        "pick": "Under or equal",
+                        "pick": "Under",
                         "correct": false
                     }
                 ]
