@@ -54,11 +54,11 @@
                 ],
                 [
                     {
-                        "pick": "New Phones match all iPhone 12 price points",
+                        "pick": "New phones match all iPhone 12 price points",
                         "correct": false
                     },
                     {
-                        "pick": "Some Phones cost more than current iPhone 12 price points",
+                        "pick": "Some phones cost more than current iPhone 12 price points",
                         "correct": true
                     }
                 ]
