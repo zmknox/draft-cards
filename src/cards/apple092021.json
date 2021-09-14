@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 370",
     "link": "https://relay.fm/upgrade/370",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -55,11 +55,11 @@
                 [
                     {
                         "pick": "New phones match all iPhone 12 price points",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Some phones cost more than current iPhone 12 price points",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -71,31 +71,31 @@
                 [
                     {
                         "pick": "New Apple Watch shipping in September",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Apple Watch design updated with flat sides",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Apple Watch screens increase in size",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "New watch faces added",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "Apple does not announce changes to band compatibility",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "No new health sensors are introduced",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
@@ -111,17 +111,17 @@
                     },
                     {
                         "pick": "New AirPods introduced",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "The stage of the Steve Jobs Theater is seen",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Apple TV+ trailers/promo video is shown",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -131,7 +131,7 @@
                     },
                     {
                         "pick": "The rainbow stage at the center of Apple Park is seen",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
