@@ -111,6 +111,22 @@
             ]
         },
         {
+            "name": "Colors mini draft",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
             "name": "Tiebreaker: Will the event be over or under TK minutes?",
             "graded": false,
             "roundLabel": "Tie?",
