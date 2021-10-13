@@ -1,0 +1,131 @@
+{
+    "name": "The Upgrade October 2021 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 376",
+    "link": "https://relay.fm/upgrade/376",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "MacBook Pro picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": false
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under TK minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over or equal",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
