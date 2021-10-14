@@ -24,51 +24,67 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "Smaller model is now 14 inches",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Magnetic charging port added",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "At least one USB-C port will let you charge",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "Touch Bar is gone",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Display will be mini-LED/marketed for enhanced dynamic range",
                         "correct": false
                     },
                     {
-                        "pick": "",
+                        "pick": "HDMI port added",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "New 1080p or better webcam",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "ProMotion display",
                         "correct": false
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "SD card slot added on at least one model",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Power adapter has Ethernet jack",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Color Czar draft",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Silver, Starlight, Non-matte black",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Space Gray, Midnight, Graphite",
                         "correct": false
                     }
                 ]
@@ -80,64 +96,58 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "New AirPods",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "New AirPods feature a design inspired by AirPods Pro",
                         "correct": false
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Mention of a new version of an Apple Pro App",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "John Ternus introduces a product",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Faster Apple Silicon Mac mini introduced ",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Affordable external display introduced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Jon Stewart comedy bit",
+                        "correct": true
+                    },
+                    {
+                        "pick": "macOS Monterey shipping in October",
                         "correct": true
                     }
                 ]
             ]
         },
         {
-            "name": "Colors mini draft",
-            "graded": true,
-            "entries": [
-                [
-                    {
-                        "pick": "",
-                        "correct": true
-                    },
-                    {
-                        "pick": "",
-                        "correct": false
-                    }
-                ]
-            ]
-        },
-        {
-            "name": "Tiebreaker: Will the event be over or under TK minutes?",
+            "name": "Tiebreaker: Will the event be over or under 60 minutes?",
             "graded": false,
             "roundLabel": "Tie?",
             "entries": [
                 [
                     {
-                        "pick": "Over or equal",
+                        "pick": "Under or equal",
                         "correct": true
                     },
                     {
-                        "pick": "Under",
+                        "pick": "Over",
                         "correct": false
                     }
                 ]

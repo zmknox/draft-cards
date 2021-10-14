@@ -3,6 +3,12 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple October 2021 \"Unleashed.\" Event",
+            "date": "...",
+            "icon": "...",
+            "card": "apple102021"
+        },
+        {
             "name": "Apple September 2021 \"California Streaming.\" Event",
             "date": "...",
             "icon": "...",
