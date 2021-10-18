@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 376",
     "link": "https://relay.fm/upgrade/376",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -35,7 +35,7 @@
                 [
                     {
                         "pick": "At least one USB-C port will let you charge",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Touch Bar is gone",
@@ -45,7 +45,7 @@
                 [
                     {
                         "pick": "Display will be mini-LED/marketed for enhanced dynamic range",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "HDMI port added",
@@ -59,7 +59,7 @@
                     },
                     {
                         "pick": "ProMotion display",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -81,7 +81,7 @@
                 [
                     {
                         "pick": "Silver, Starlight, Non-matte black",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Space Gray, Midnight, Graphite",
@@ -101,7 +101,7 @@
                     },
                     {
                         "pick": "New AirPods feature a design inspired by AirPods Pro",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -117,21 +117,21 @@
                 [
                     {
                         "pick": "Faster Apple Silicon Mac mini introduced ",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Affordable external display introduced",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Jon Stewart comedy bit",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "macOS Monterey shipping in October",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
