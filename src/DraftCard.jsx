@@ -122,11 +122,13 @@ export default class DraftCard extends Component {
     renderButton() {
         if (this.state.card.finished === true) {
             return (
-                <Row className="justify-content-center">
-                    <Col bsPrefix="col-">
-                        <Button onClick={this.setResults} variant="dark">View Official Rulings</Button>
-                    </Col>
-                </Row>
+                <>
+                    <Row className="justify-content-center">
+                        <Col bsPrefix="col-">
+                            <Button onClick={this.setResults} variant="dark">View Official Rulings</Button>
+                        </Col>
+                    </Row>
+                </>
             )
         }
         return <></>
@@ -139,11 +141,15 @@ export default class DraftCard extends Component {
         }
         return (
             <>
-                <tr className="d-flex">
-                    <th colSpan={collapse} className="col-12 text-center row-heading">
-                        <h5>{section.name}</h5>
-                    </th>
-                </tr>
+                {section.name ? 
+                    (
+                        <tr className="d-flex">
+                            <th colSpan={collapse} className="col-12 text-center row-heading">
+                                <h5>{section.name}</h5>
+                            </th>
+                        </tr>
+                    ) : ''
+                }
                 {section.entries.map((row, rowIndex) => {
                     return (
                         <tr className="d-flex">
@@ -259,7 +265,7 @@ export default class DraftCard extends Component {
                     <br />
                     <Row>
                         <Col>
-                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://twitter.com/zmknox">Zach Knox</a>.</h5>
+                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://twitter.com/zmknox">@zmknox</a>.</h5>
                         </Col>
                     </Row>
                 </Container>
