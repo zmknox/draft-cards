@@ -6,7 +6,7 @@ import { Navbar, Container, Jumbotron } from 'react-bootstrap';
 import Landing from './Landing.jsx';
 import Rules from './Rules.jsx';
 import CardPage from './CardPage.jsx';
-import CardPagePrint from './CardPagePrint.jsx';
+// import CardPagePrint from './CardPagePrint.jsx';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         </Container>
       </Navbar>
       <Switch>
-        <Route path='/print' component={CardPagePrint} />
+        {/* <Route path='/print' component={CardPagePrint} /> */}
         <Route path='/card' component={CardPage} />
         <Route path='/rules' component={Rules} />
         <Route path='/' component={Landing} />
