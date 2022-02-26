@@ -1,3 +1,20 @@
+:root {
+  color-scheme: light dark;
+  --body-text: #212429;
+  --card-bg: #dddddd;
+  --body-background: #ffffff;
+  --button-color: #
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-text: #e9e9e9;
+    --card-bg: #111111;
+    --body-background: #1f1f1f;
+	--table-bg: #111111;
+  }
+}
+
 .Hero-Image {
     display: block;
     margin-left: auto;
@@ -14,4 +31,25 @@
   .Hero-Image {
     max-width: 500px;
   }
+}
+
+.Home-Card {
+  background-color: var(--card-bg);
+  color: var(--body-text);
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.Home-Card-Img {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.Home-Bottom-Link {
+  margin: 1em;
+}
+
+.Home-Footer {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
 }

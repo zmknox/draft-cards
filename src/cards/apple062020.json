@@ -1,0 +1,159 @@
+{
+    "name": "The Upgrade WWDC20 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 302",
+    "link": "https://relay.fm/upgrade/302",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/fxhtBaa.png"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "ARM transition announced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Changes to the home screen layout on iPadOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iMac",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Change default apps on iPadOS & iOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Better external display support on iPad",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Big AR improvements on iOS",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Mac Catalyst improvements",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple Watch faces",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Improvements to always-on watch faces",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Enhancements to Messages on iOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "We see the inside of the Apple Park ring",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Updates to SwiftUI",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Memoji options",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Focus on mental health features",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Improvements to Siri",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Focus on performance and stability for iOS",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "No gameplay demos",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Game presentations with guests from game studios",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "One-off ARM transition hardware not offered",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New Apple display",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Bonus Round: What will the next version of macOS be called?",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "macOS San Clemente",
+                        "correct": false
+                    },
+                    {
+                        "pick": "macOS Avalon",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will Tim be on a stage?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "No",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Yes",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

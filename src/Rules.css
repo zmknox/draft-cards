@@ -1,0 +1,54 @@
+:root {
+  color-scheme: light dark;
+  --body-text: #212429;
+  --body-background: #ffffff;
+  --button-color: #
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-text: #e9e9e9;
+    --body-background: #1f1f1f;
+	--table-bg: #111111;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--body-text);
+  background-color: var(--body-background);
+}
+
+.white-header {
+	color: #343E47;
+}
+.white-header a:link, .white-header a:visited {
+	color: #333F48 !important;
+}
+
+.rules-header-bg {
+	background: var(--body-background);
+}
+/* @media (prefers-color-scheme: dark) {
+	.header-bg {
+		background-color: #929292;
+	}
+} */
+.bold-header {
+	font-weight: bolder;
+}
+
+.jumbotron-padding {
+	padding: 0.8em;
+}
+
+.rules-list {
+    font-size: 20pt;
+}

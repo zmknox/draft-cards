@@ -3,33 +3,57 @@
     "banner": "...",
     "cards": [
         {
-            "name": "Apple October 2021 \"Unleashed.\" Event",
-            "date": "...",
-            "icon": "...",
+            "name": "Apple \"Unleashed.\" Event",
+            "date": "October 2021",
+            "img": "/img/cards/apple102021.jpg",
             "card": "apple102021"
         },
         {
-            "name": "Apple September 2021 \"California Streaming.\" Event",
-            "date": "...",
-            "icon": "...",
+            "name": "Apple \"California Streaming.\" Event",
+            "date": "September 2021",
+            "img": "/img/cards/apple092021.jpg",
             "card": "apple092021"
         },
         {
             "name": "Apple WWDC 2021 Keynote",
-            "date": "...",
-            "icon": "...",
+            "date": "June 2021",
+            "img": "/img/cards/apple062021.jpg",
             "card": "apple062021"
         },
         {
-            "name": "Apple April 2021 \"Spring Loaded.\" Event",
-            "date": "...",
-            "icon": "...",
+            "name": "Apple \"Spring Loaded.\" Event",
+            "date": "April 2021",
+            "img": "/img/cards/apple042021.jpg",
             "card": "apple042021"
         },
         {
-            "name": "Upgrade by Episode 400",
-            "date": "...",
-            "icon": "...",
+            "name": "Apple \"One more thing.\" Event",
+            "date": "November 2020",
+            "img": "/img/cards/apple112020.jpg",
+            "card": "apple112020"
+        },
+        {
+            "name": "Apple\"Hi, Speed.\" Event",
+            "date": "October 2020",
+            "img": "/img/cards/apple102020.jpg",
+            "card": "apple102020"
+        },
+        {
+            "name": "Apple \"Time Flies\" Event",
+            "date": "September 2020",
+            "img": "/img/cards/apple092020.jpg",
+            "card": "apple092020"
+        },
+        {
+            "name": "Apple WWDC 2020 Keynote",
+            "date": "June 2020",
+            "img": "/img/cards/apple062020.jpg",
+            "card": "apple062020"
+        },
+        {
+            "name": "Apple by Upgrade Episode 400",
+            "date": "June 2020",
+            "img": "/img/cards/upgradelogo.jpg",
             "card": "upgrade300"
         }
     ]

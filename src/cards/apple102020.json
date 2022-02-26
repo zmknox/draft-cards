@@ -1,0 +1,150 @@
+{
+    "name": "The Upgrade October 2020 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 320",
+    "link": "https://relay.fm/upgrade/320",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone Picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "The biggest iPhone is bigger than any iPhone 11",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple introduces four iPhones",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "The iPhone gets a LiDAR sensor",
+                        "correct": true
+                    },
+                    {
+                        "pick": "At least one iPhone is 5G compatible",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "At least one model not available until November",
+                        "correct": true
+                    },
+                    {
+                        "pick": "The smallest iPhone is smaller than any iPhone 11",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "No charger in the box with at least one iPhone",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New colors in the iPhone line",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Name of some iPhone model contains 12",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Some new iPhones updated with flat sides, like the iPad Pro",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Non-iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New HomePod is under $200",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Greg \"Joz\" Joswiak presents",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Mac not mentioned",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Another Apple Silicon/A14 boast segment down in the chip lab",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "The Emmy Awards are mentioned",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Trailers for Apple TV+ Content",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "We see details of a not-yet-seen feature in iOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Craig Federighi appears",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New version of HomePod unveiled",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple TV box",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 80 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

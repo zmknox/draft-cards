@@ -1,0 +1,156 @@
+{
+    "name": "The Upgrade September 2020 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 315",
+    "link": "https://relay.fm/upgrade/315",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "Apple Watch Picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Low-priced Apple Watch replaces Series 3",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Watch gets a new health focused sensor",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Low cost watch omitting always-on display",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Somebody will wash their hands",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New watch body color/material option",
+                        "correct": true
+                    },
+                    {
+                        "pick": "An Apple Watch model gets extended battery life",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "iPad picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New non-Pro iPad gets edge-to-edge screen design",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New non-Pro iPad gets flat edge design",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iPad will support 2nd generation Apple Pencil",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPad will retain Touch ID sensor",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New non-Pro iPad compatible with Magic Keyboard",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPad will get Face ID",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Free Picking",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Apple will mention the iPhone is coming later",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Fitness workout service introduced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Over-the-ear Apple headphones revealed",
+                        "correct": false
+                    },
+                    {
+                        "pick": "watchOS 7 release date announced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iOS or iPadOS 14 release date announced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple services bundle unveiled",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple TV+ content trailers",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New version of the HomePod",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 90 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under or equal",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Over",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

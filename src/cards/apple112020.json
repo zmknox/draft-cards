@@ -1,0 +1,130 @@
+{
+    "name": "The Upgrade November 2020 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 324",
+    "link": "https://relay.fm/upgrade/324",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "Mac Picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "The first Apple Silicon Mac is a laptop",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Silicon Macs are significantly faster than what they replace",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "An Apple Silicon Mac has the same design as the Mac it replaces",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Silicon Macs have significantly more battery life",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Return to the chip design lab set",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Demo of iOS apps on the Mac",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "An Apple Silicon Mac runs on the A14X chip",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Return of a MacBook-style laptop",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "macOS Big Sur release date announced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "A new Mac ships in November",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Non-Mac picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Craig Federighi presents",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Johny Srouji presents",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple unveils over-the-ear headphones",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple tag product announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Greg “Joz” Joswiak presents",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New AirPods model announced",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 60 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
