@@ -35,12 +35,12 @@ class Landing extends Component {
         return (
             <Container className='justify-content-center'>
                 <Image className='Hero-Image text-center' src='/img/draft-shield.png' fluid />
-
+                <h3 className="Home-Heading text-center">Scorecard Index</h3>
                 <Row>
                     {this.renderCardLinks()}
                 </Row>
-                <h5 className="Home-Bottom-Link text-center"><Link to={`/rules/`}>📚 Upgrade Draft Rules</Link></h5>
-                <h5 className="Home-Bottom-Link text-center"><a href="https://zmknox.com/bingo/drafts/">⬅ View Legacy Draft Scorecards</a></h5>
+                <h4 className="Home-Bottom-Link text-center"><Link to={`/rules/`}>📚 Upgrade Draft Rules</Link></h4>
+                <h4 className="Home-Bottom-Link text-center"><a href="https://zmknox.com/bingo/drafts/">⬅ View Legacy Draft Scorecards</a></h4>
                 <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">@zmknox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2022 Relay FM, and are used with permission.</h6>
             </Container>
         );
