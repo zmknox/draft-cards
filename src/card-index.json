@@ -3,7 +3,7 @@
     "banner": "...",
     "cards": [
         {
-            "name": "Apple's Rumored March 8 Event",
+            "name": "Apple \"Peek performance.\" Event",
             "date": "March 2022",
             "img": "/img/cards/apple032022.jpg",
             "card": "apple032022"
@@ -45,7 +45,7 @@
             "card": "apple102020"
         },
         {
-            "name": "Apple \"Time Flies\" Event",
+            "name": "Apple \"Time Flies.\" Event",
             "date": "September 2020",
             "img": "/img/cards/apple092020.jpg",
             "card": "apple092020"
