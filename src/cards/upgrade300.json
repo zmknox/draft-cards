@@ -3,7 +3,7 @@
 	"preLinkText": "As heard on ",
     "linkText": "Upgrade 300",
     "link": "https://relay.fm/upgrade/300",
-    "finished": false,
+    "finished": true,
     "contested": false,
 	"contestants": [
 		{
@@ -30,9 +30,9 @@
                         "pick": "Apple services bundle unveiled",
                         "correct": true
                     }
-				],
-				[
-					{
+                ],
+                [
+                    {
                         "pick": "\"MacBook Air\" name still exists on a product",
                         "correct": true
                     },
@@ -40,9 +40,9 @@
                         "pick": "Apple ✕ Jony Ive collaboration",
                         "correct": false
                     }
-				],
-				[
-					{
+                ],
+                [
+                    {
                         "pick": "iOS app development possible on the iPad",
                         "correct": true
                     },
@@ -50,9 +50,9 @@
                         "pick": "Apple hardware product focused on AR unveiled",
                         "correct": false
                     }
-				],
-				[
-					{
+                ],
+                [
+                    {
                         "pick": "Apple targeted by specific encryption-related legislation in the US",
                         "correct": false
                     },
@@ -60,18 +60,18 @@
                         "pick": "Consumer Macs transitioned to ARM-based processors",
                         "correct": true
                     }
-				],
-				[
-					{
+                ],
+                [
+                    {
                         "pick": "Four different products exist with the name \"AirPods\"",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "iPhone launch schedule is staggered (eg: Spring and Fall)",
                         "correct": false
                     }
-				]
-			]
-		}
-	]
+                ]
+            ]
+        }
+    ]
 }

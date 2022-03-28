@@ -3,6 +3,12 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Upgrade Episode 500 Draft of the Ages",
+            "date": "March 2022",
+            "img": "/img/cards/upgradelogo.jpg",
+            "card": "upgrade400"
+        },
+        {
             "name": "Apple \"Peek performance.\" Event",
             "date": "March 2022",
             "img": "/img/cards/apple032022.jpg",
