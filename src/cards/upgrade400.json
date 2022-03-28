@@ -33,11 +33,11 @@
                 ],
                 [
                     {
-                        "pick": "Apple TV+ will include live programming that is not sports",
+                        "pick": "Apple TV+ broadcasts another live sport that is not baseball",
                         "correct": true
                     },
                     {
-                        "pick": "Apple TV+ broadcasts another live sport that is not baseball",
+                        "pick": "Apple TV+ will include live programming that is not sports",
                         "correct": false
                     }
                 ],
