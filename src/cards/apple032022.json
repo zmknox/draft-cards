@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 396",
     "link": "https://relay.fm/upgrade/396",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -55,7 +55,7 @@
                 [
                     {
                         "pick": "New iPhone SE doesn’t look like previous iPhone SE",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New iPhone SE has Touch ID",
@@ -71,41 +71,41 @@
                 [
                     {
                         "pick": "New 13-inch MacBook Pro announced",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New Mac mini announced",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "New MacBook Pro loses the Touch Bar",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New MacBook Pro keeps the Touch Bar",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "New Mac mini available with both M1 Pro and M1 Max chips",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New MacBook Pro gets an M2 chip",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "New Mac mini keeps the same design",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New Mac mini gets more ports than the M1 Mac mini",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -121,7 +121,7 @@
                     },
                     {
                         "pick": "Tim Cook presents from outside Apple Park",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -143,7 +143,7 @@
                 [
                     {
                         "pick": "Silver, Green, Deep Blue Sea",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Space Gray, (PRODUCT)RED, Spring Yellow",
@@ -161,11 +161,11 @@
                 [
                     {
                         "pick": "Over or equal",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Under",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]

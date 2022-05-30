@@ -1,0 +1,214 @@
+{
+    "name": "The Upgrade WWDC22 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 409",
+    "link": "https://relay.fm/upgrade/409",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iOS and iPadOS picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Apps can run on an external display on iPadOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New privacy-focused features",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "More user-controllable design/theming",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New AR features",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Widgets/widget-like features on the Lock Screen",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New notification management tools (outside of Focus modes)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Global keyboard shortcuts for Shortcuts on iPad",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New features for Messages",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Car Key partners named",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Enhancements to SwiftUI",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Classical music app",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Redesign of the Home app",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "macOS and Mac Hardware picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "At least one feature will be stated as being “Apple silicon only”",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New way to access Widgets on macOS",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New MacBook Air announced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New Mac Pro announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Shortcuts for Mac improvements specifically highlighted",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Redesign of System Preferences",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Craig Federighi appears",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Some portion of the program is live",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Old watch faces upgraded",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New watch faces",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New health-focused app in watchOS",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Tim Cook presents in front of an audience",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Inside view of the Steve Jobs Theater",
+                        "correct": false
+                    },
+                    {
+                        "pick": "No AR/VR hardware announced or preannounced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "TV app redesigned on tvOS",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New way to access favorite apps in watchOS",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Bonus Round: macOS Names",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "macOS 16, macOS Sequoia",
+                        "correct": false
+                    },
+                    {
+                        "pick": "macOS Tahoe, macOS Golden Gate",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+
+        {
+            "name": "Tiebreaker: Will the event be over or under 119 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over or equal",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}
