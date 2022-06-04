@@ -1,0 +1,159 @@
+{
+    "name": "The Upgrade WWDC19 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 247",
+    "link": "https://relay.fm/upgrade/247",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/E7OHgNT.png"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Dark Mode on iOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Memoji sticker options",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Mac Pro unveiling",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Arcade shown-off",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Screen/window-sharing feature from Mac to iOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Multiple windows/instances of applications on iPad",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "More watchfaces for Apple Watch",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple will bring more of their iOS apps to the Mac",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple TV app for macOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Upgraded Reminders app",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New TV related partnership",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Changes to iPad multitasking",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "\"New\" Music app on macOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New health focused watchOS apps",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Display mentioned",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Screen Time on the Mac",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Podcasts app for macOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "External storage device support for iOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Desktop Safari mode on iPad",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New features in Mail",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Bonus Round: What will the next version of macOS be called?",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "macOS Joshua Tree",
+                        "correct": false
+                    },
+                    {
+                        "pick": "macOS Bridgeport",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Number of times Tim Cook physically comes on stage",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Less than or Equal to Five",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Greater than Five",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

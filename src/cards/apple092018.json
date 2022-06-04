@@ -1,0 +1,126 @@
+{
+    "name": "The Upgrade September 2018 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 209",
+    "link": "https://relay.fm/upgrade/209",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/O0fb8VI.jpg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Existing watch bands are compatible with new Apple Watch",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Large screen OLED phone $1099 or more",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Group FaceTime mentioned + promised for later this year",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Lower end notch iPhone called ‘9’",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Lower end notch iPhone to have color options",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AirPower release date announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Updates to iOS, not shown at WWDC",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AR App Demo",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Game demo (non-AR)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Big iPhone called ‘Plus’",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iPad Pros announced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Mojave not mentioned on stage",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Updates to watchOS, not shown at WWDC (or in that 9to5Mac image)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New AirPods generation – including a new feature",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "LCD iPhone less than $999",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPads to have Face ID",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New sub-$1000 laptop introduced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Mac not mentioned on stage",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Watch to get slimmer",
+                        "correct": true
+                    },
+                    {
+                        "pick": "No new iPads",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

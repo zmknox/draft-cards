@@ -1,0 +1,106 @@
+{
+    "name": "The Upgrade October 2018 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 216",
+    "link": "https://relay.fm/upgrade/216",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/O0fb8VI.jpg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New iPads to have Face ID",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple Pencil",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Photoshop for iPad mentioned or demoed",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPads have no headphone jack",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Smart Connector on iPad Pro",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New Mac mini introduced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New sub-$1000 laptop introduced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New iPads have USB-C port but no Lightning",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New AirPods generation – including a new feature",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New laptop doesn’t have USB-A ports",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iMacs mentioned on stage",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Face ID works both horizontally and vertically",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Art used in invitations is used in video during presentation",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Demo of another big app debut from a major company - and not a game",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "4K external display support for iPad",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Promotion for iPhone Xʀ",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

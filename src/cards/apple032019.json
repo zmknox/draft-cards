@@ -1,0 +1,189 @@
+{
+    "name": "The Upgrade March 2019 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 237",
+    "link": "https://relay.fm/upgrade/237",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/E7OHgNT.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "What would an Apple video streaming service be called?",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Apple TV",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Video",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "What would a services bundle be called?",
+            
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "All-Apple Pass",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple One",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Draft Picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "News launches by the end of April, with iOS 12.2",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Services Bundle Unveiled",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple will offer subscriptions to other video services within the new app",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple to have video content that they did not make, available for free to subscribers",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Video Game Service Unveiled",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Video service launches in US only",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Video service costs more than $10/mo",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Credit Card",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Celebrity Round",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Oprah Winfrey",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Reese Witherspoon",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Steven Spielberg",
+                        "correct": true
+                    },
+                    {
+                        "pick": "JJ Abrams",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Sara Bareilles",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Sesame Workshop",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Trailers Round",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "See",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Morning Show Drama",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Ronald D. Moore Sci-Fi Series",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Oprah Content",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Charlie Brown/Peanuts",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Little America",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: What Color Will Tim’s Shoes Be?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "White",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Dark Grey",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

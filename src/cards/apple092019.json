@@ -1,0 +1,143 @@
+{
+    "name": "The Upgrade September 2019 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 261",
+    "link": "https://relay.fm/upgrade/261",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/E7OHgNT.png"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New range of iPhone colors",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Wide-angle lens on iPhone",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "No 3D Touch on new iPhones / Haptic Touch mentioned",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Demo of Apple Arcade",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Apple Watch materials",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Arcade pricing and clearer launch timeframe",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone XR replacement has second camera",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone XR replacement → iPhone 11; iPhone XS and XS Max replacements are \"Pro\"",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple TV+ clearer launch timeframe",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Low light mode for photography",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Updated TrueDepth camera hardware",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Demo of Apple Watch App Store",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iOS feature coming \"later this year\"",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone XR replacement will keep its LCD",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Apple Watch faces shown",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Disney+ will be mentioned",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple retail slide with photo of a newly opened flagship store",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple TV+ content deals announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Spinal Tap reference",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple TV app availability on other platforms mentioned",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Total color options on all new iPhone models",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Nine or more",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Fewer than Nine",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

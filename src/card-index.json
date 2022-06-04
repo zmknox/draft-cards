@@ -73,6 +73,42 @@
             "date": "June 2020",
             "img": "/img/cards/upgradelogo.jpg",
             "card": "upgrade300"
+        },
+        {
+            "name": "Apple \"By innovation only.\" Event",
+            "date": "September 2019",
+            "img": "/img/cards/apple092019.jpg",
+            "card": "apple092019"
+        },
+        {
+            "name": "Apple WWDC 2019 Keynote",
+            "date": "June 2019",
+            "img": "/img/cards/apple062019.jpg",
+            "card": "apple062019"
+        },
+        {
+            "name": "Apple \"It's show time.\" Event",
+            "date": "March 2019",
+            "img": "/img/cards/apple032019.jpg",
+            "card": "apple032019"
+        },
+        {
+            "name": "Apple \"There's more in the making.\" Event",
+            "date": "October 2018",
+            "img": "/img/cards/apple102018.jpg",
+            "card": "apple102018"
+        },
+        {
+            "name": "Apple \"Gather round.\" Evemt",
+            "date": "September 2018",
+            "img": "/img/cards/apple092018.jpg",
+            "card": "apple092018"
+        },
+        {
+            "name": "Apple WWDC 2018 Keynote",
+            "date": "June 2018",
+            "img": "/img/cards/apple062018.jpg",
+            "card": "apple062018"
         }
     ]
 }

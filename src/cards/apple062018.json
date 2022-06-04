@@ -1,0 +1,126 @@
+{
+    "name": "The Upgrade WWDC18 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 195",
+    "link": "https://relay.fm/upgrade/195",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/E7OHgNT.png"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "MacBook Pro update",
+                        "correct": false
+                    },
+                    {
+                        "pick": "“Digital well-being” focus/overarching concept",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New parental controls",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Notifications overhaul",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AirPower released/release date set",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Focus on bug fixes/performance improvements/stability",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Animoji",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Animoji integration in FaceTime",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "ARKit updates",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Significant overhaul for app developer APIs for watchOS",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "watchOS sleep tracking",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Watch always-on face",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone always-on OLED lock screen",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Do Not Disturb overhaul",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "HomeKit on macOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Control Center relocated",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPad app development",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New iPad Pros",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "HomePod update/mention",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Mention of user automation/Workflow",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}
