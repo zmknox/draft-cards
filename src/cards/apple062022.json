@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 409",
     "link": "https://relay.fm/upgrade/409",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -39,7 +39,7 @@
                     },
                     {
                         "pick": "New AR features",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -79,7 +79,7 @@
                     },
                     {
                         "pick": "Redesign of the Home app",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
@@ -101,7 +101,7 @@
                 [
                     {
                         "pick": "New MacBook Air announced",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "New Mac Pro announced",
@@ -115,7 +115,7 @@
                     },
                     {
                         "pick": "Redesign of System Preferences",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
@@ -147,7 +147,7 @@
                 [
                     {
                         "pick": "New health-focused app in watchOS",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Tim Cook presents in front of an audience",
@@ -157,11 +157,11 @@
                 [
                     {
                         "pick": "Inside view of the Steve Jobs Theater",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "No AR/VR hardware announced or preannounced",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -171,7 +171,7 @@
                     },
                     {
                         "pick": "New way to access favorite apps in watchOS",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
