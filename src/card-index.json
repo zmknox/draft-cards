@@ -3,6 +3,12 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple \"Far out.\" Event",
+            "date": "September 2022",
+            "img": "/img/cards/apple092022.jpg",
+            "card": "apple092022"
+        },
+        {
             "name": "Apple WWDC 2022 Keynote",
             "date": "June 2022",
             "img": "/img/cards/apple062022.jpg",

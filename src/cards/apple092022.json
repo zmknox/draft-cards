@@ -1,0 +1,157 @@
+{
+    "name": "The Upgrade September 2022 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 422",
+    "link": "https://relay.fm/upgrade/422",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://twitter.com/jsnell",
+            "icon": "https://i.imgur.com/5W9y5iE.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://twitter.com/imyke",
+            "icon": "https://i.imgur.com/URuUCmV.png"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Notch gone from at least one iPhone model, replaced by cutouts for camera and sensors",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Always-on Display comes only to Pro phone models",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone 14 Pro gets a new A-series chip",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Pro phones get an upgraded camera (more megapixels)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Some models' starting prices are higher than iPhone 13 price points",
+                        "correct": false
+                    },
+                    {
+                        "pick": "All-new color option added to at least one of the Pro phones",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Pro phones get a camera software feature that other phones do not have",
+                        "correct": true
+                    },
+                    {
+                        "pick": "At least one camera upgrade to the non-Pro iPhone 14",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Apple Watch picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New health-related sensor",
+                        "correct": false
+                    },
+                    {
+                        "pick": "At least one Apple Watch screen is bigger than any previous watch",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Apple Watch SE model",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple Watch model has the longest rated battery life ever",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Apple Watch model is called Pro",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New watch faces announced (not from WWDC)",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "We pay a visit to Apple’s “Chip Lab”",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New AirPods Pro announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "The event is all prerecorded",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple Fitness+ features",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple TV+ character(s) appear in character just for this event",
+                        "correct": true
+                    },
+                    {
+                        "pick": "The rainbow stage at the center of Apple Park is seen",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 83 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Under or equal",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
