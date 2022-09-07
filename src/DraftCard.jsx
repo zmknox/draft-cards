@@ -125,7 +125,7 @@ export default class DraftCard extends Component {
                 <>
                     <Row className="justify-content-center">
                         <Col bsPrefix="col-">
-                            <Button onClick={this.setResults} variant="dark">View Official Rulings</Button>
+                            <Button onClick={this.setResults} size="lg" variant="dark">View Official Rulings</Button>
                         </Col>
                     </Row>
                 </>
@@ -188,6 +188,8 @@ export default class DraftCard extends Component {
                     </Container>
                 </Jumbotron>
                 <Container>
+                    {this.renderButton()}
+                    <br />
                     <Row className="justify-content-center text-center">
                         <Col>
                             <h5>Select each entry to award points, or mark them wrong.</h5>
@@ -261,7 +263,6 @@ export default class DraftCard extends Component {
                             </Table>
                         </Col>
                     </Row>
-                    {this.renderButton()}
                     <br />
                     <Row>
                         <Col>
