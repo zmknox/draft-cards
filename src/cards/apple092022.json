@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 422",
     "link": "https://relay.fm/upgrade/422",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -35,7 +35,7 @@
                 [
                     {
                         "pick": "iPhone 14 Pro gets a new A-series chip",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Pro phones get an upgraded camera (more megapixels)",
@@ -59,7 +59,7 @@
                     },
                     {
                         "pick": "At least one camera upgrade to the non-Pro iPhone 14",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
@@ -71,11 +71,11 @@
                 [
                     {
                         "pick": "New health-related sensor",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "At least one Apple Watch screen is bigger than any previous watch",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -91,7 +91,7 @@
                 [
                     {
                         "pick": "New Apple Watch model is called Pro",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New watch faces announced (not from WWDC)",
@@ -107,11 +107,11 @@
                 [
                     {
                         "pick": "We pay a visit to Apple’s “Chip Lab”",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New AirPods Pro announced",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
