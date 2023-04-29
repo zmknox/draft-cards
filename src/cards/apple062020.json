@@ -7,13 +7,13 @@
     "contestants": [
         {
             "name": "Jason",
-            "link": "https://twitter.com/jsnell",
-            "icon": "https://i.imgur.com/5W9y5iE.png"
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/resources/avatars/snell.png"
         },
         {
             "name": "Myke",
-            "link": "https://twitter.com/imyke",
-            "icon": "https://i.imgur.com/fxhtBaa.png"
+            "link": "https://myke.social/@imyke",
+            "icon": "/resources/avatars/myke2.jpeg"
         }
     ],
     "sections": [
