@@ -8,12 +8,12 @@
         {
             "name": "Jason",
             "link": "https://zeppelin.flights/@jsnell",
-            "icon": "/resources/avatars/snell.png"
+            "icon": "/img/avatars/snell.png"
         },
         {
             "name": "Myke",
             "link": "https://myke.social/@imyke",
-            "icon": "/resources/avatars/myke2.jpeg"
+            "icon": "/img/avatars/myke2.jpeg"
         }
     ],
     "sections": [
