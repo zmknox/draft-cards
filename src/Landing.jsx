@@ -13,6 +13,9 @@ class Landing extends Component {
     renderCardLinks() {
         let arr = [];
         for (let card of cardIndex.cards) {
+            if (arr.length >= 4) {
+                break;
+            }
             arr.push(
                 <Col sm={6}>
                     <Link to={`/card/${card.card}`} >
@@ -35,12 +38,14 @@ class Landing extends Component {
         return (
             <Container className='justify-content-center'>
                 <Image className='Hero-Image text-center' src='/img/draft-shield.png' fluid />
-                <h3 className="Home-Heading text-center">Scorecard Index</h3>
+                <h3 className="Home-Heading text-center">Recent Drafts</h3>
                 <Row>
                     {this.renderCardLinks()}
                 </Row>
+                <h4 className="Home-Bottom-Link text-center"><Link to={`/cards/`}>⬅️ View All Scorecards</Link></h4>
+                <h4 className="Home-Bottom-Link text-center"><Link to={`/tags/`}>📛 View By Tag</Link></h4>
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/rules/`}>📚 Upgrade Draft Rules</Link></h4>
-                <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">@zmknox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2022 Relay FM, and are used with permission.</h6>
+                <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">zmknox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2023 Relay FM, and are used with permission.</h6>
             </Container>
         );
     }

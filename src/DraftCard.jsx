@@ -266,7 +266,7 @@ export default class DraftCard extends Component {
                     <br />
                     <Row>
                         <Col>
-                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://twitter.com/zmknox">@zmknox</a>.</h5>
+                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://snailedit.social/@zmk">zmknox</a>.</h5>
                         </Col>
                     </Row>
                 </Container>

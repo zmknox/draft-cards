@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Route } from "react-router-dom";
-import DraftCard from './DraftCard';
+import Tag from './Tag';
 
-class CardPage extends Component {
+class TagPage extends Component {
     render() {
         return (
             <Route path={`${this.props.match.path}/:id`} render={props => (
-                <DraftCard {...props} card={props.match.params.id} />
+                <Tag {...props} tag={props.match.params.id} />
             )} />
         );
     }
 }
 
-export default CardPage;
+export default TagPage;
