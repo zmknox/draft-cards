@@ -1,0 +1,126 @@
+{
+    "name": "The Upgrade WWDC17 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 143",
+    "link": "https://relay.fm/upgrade/143",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke1.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Majorly enhanced SiriKit",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Redesigned iPad split view",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Mac support for HomeKit",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New iPad Pro announced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Photos metadata is synced across devices",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Amazon Prime TV app",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPad drag-and-drop",
+                        "correct": true
+                    },
+                    {
+                        "pick": "MacBook Pro update",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Improved Touch Bar support",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Improved 3D Touch support",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Improved support for the iPhone dual-camera system",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Spinal Tap reference is made",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Mention of new Mac Pro",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Debut of Siri speaker",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New health-focused app for Apple Watch",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Picture-in-picture on tvOS",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "\"Hey Siri\" on the Mac",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iTunes gets broken up",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "macOS goes to 11",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iPad development tools",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

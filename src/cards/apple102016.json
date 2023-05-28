@@ -1,0 +1,129 @@
+{
+    "name": "The Upgrade October 2016 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 112",
+    "link": "https://relay.fm/upgrade/112",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke1.jpeg"
+        },
+        {
+            "name": "Upgradians",
+            "link": "https://relay.fm/upgrade",
+            "icon": "/img/avatars/upgradians.png"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New MacBook Pro",
+                        "correct": true
+                    },
+                    {
+                        "pick": "MacBook Pro includes touch screen function row",
+                        "correct": true
+                    },
+                    {
+                        "pick": "4k Apple TV",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "MacBook Pro includes Touch ID sensor",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AirPods shipping date announced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Refreshed MacBook Air with retina display",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "MacBook Pro has no traditional USB ports",
+                        "correct": true
+                    },
+                    {
+                        "pick": "13-inch \"MacBook\" (not MacBook Air)",
+                        "correct": false
+                    },
+                    {
+                        "pick": "A USB-C to standard USB adapter/dock is mentioned",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "MacBook Pro has P3 color gamut",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Refreshed iMacs",
+                        "correct": false
+                    },
+                    {
+                        "pick": "At least one Mac ships without a headphone jack",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "All updated Macs have USB-C or Thunderbolt 3 ports",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Refreshed Mac Pro",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Mac Pro mentioned in any way",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Developer API for Magic Toolbar/touch screen on MacBook Pro",
+                        "correct": true
+                    },
+                    {
+                        "pick": "MacBook (Adorable) gets a speed bump",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Refreshed Mac mini",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New external retina display",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Refreshed MacBook Air without retina display",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Colors on MacBook Pro",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

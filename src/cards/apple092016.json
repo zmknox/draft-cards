@@ -1,0 +1,142 @@
+{
+    "name": "The Upgrade September 2016 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 104",
+    "link": "https://relay.fm/upgrade/104",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke1.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "No headphone jack",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Dual camera on Plus model iPhone",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iPhone announced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Watch 2 announced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Force touch home button",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPhone colors",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Lightning earbuds included with new iPhone",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPhone is not called \"iPhone 7\"",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New watch bands",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Watch 1 kept in lineup alongside Watch 2",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Promoting \"big new things in the spring\" for iPad",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New iPhone starts at 32GB",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Watch 2 retains band compatibility",
+                        "correct": true
+                    },
+                    {
+                        "pick": "GPS on Watch 2",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Musical performance",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New iPhone described as water resistant",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New iMacs announced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New MacBook Pros announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Live game demo on stage",
+                        "correct": true
+                    },
+                    {
+                        "pick": "MacBook Pro function bar touchscreen",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Bonus Round",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Frank Ocean is the musical act",
+                        "correct": false
+                    },
+                    {
+                        "pick": "The new iPhone will be called \"iPhone\"",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

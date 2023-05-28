@@ -19,6 +19,10 @@
         "name": "AirPods",
         "description": "Predictions for events where new AirPods was announced"
     },
+    "apple-tv": {
+        "name": "Apple TV",
+        "description": "Predictions for events where a new Apple TV was announced"
+    },
     "apple-watch": {
         "name": "Apple Watch",
         "description": "Predictions for events where a new Apple Watch was announced"

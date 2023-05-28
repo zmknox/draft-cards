@@ -100,6 +100,7 @@
                 "spring",
                 "mac",
                 "ipad",
+                "apple-tv",
                 "myke"
             ]
         },
@@ -215,6 +216,73 @@
             "date": "June 2018",
             "img": "/img/cards/apple062018.jpg",
             "card": "apple062018",
+            "tags": [
+                "wwdc",
+                "myke"
+            ]
+        },
+        {
+            "name": "Apple \"Let's take a field trip.\" Event",
+            "date": "March 2018",
+            "img": "/img/cards/apple032018.jpg",
+            "card": "apple032018",
+            "tags": [
+                "ipad",
+                "spring",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple \"Let's meet at our place.\" Event",
+            "date": "September 2017",
+            "img": "/img/cards/apple092017.jpg",
+            "card": "apple092017",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "apple-tv",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple WWDC 2017 Keynote",
+            "date": "June 2017",
+            "img": "/img/cards/apple062017.jpg",
+            "card": "apple062017",
+            "tags": [
+                "wwdc",
+                "mac",
+                "ipad",
+                "homepod",
+                "myke"
+            ]
+        },
+        {
+            "name": "Apple \"hello again\" Event",
+            "date": "October 2016",
+            "img": "/img/cards/apple102016.jpg",
+            "card": "apple102016",
+            "tags": [
+                "mac",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple \"See you on the 7th.\" Event",
+            "date": "September 2016",
+            "img": "/img/cards/apple092016.jpg",
+            "card": "apple092016",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple WWDC 2016 Keynote",
+            "date": "June 2016",
+            "img": "/img/cards/apple062016.jpg",
+            "card": "apple062016",
             "tags": [
                 "wwdc",
                 "myke"
