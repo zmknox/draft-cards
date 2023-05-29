@@ -22,3 +22,13 @@
   margin-left: 5pt;
   color: #eeeeee;
 }
+
+.NavbarTitleBrand:hover .Navbar-Title-Img {
+  box-shadow: 0px 0px 25px black;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.NavbarTitleBrand:hover .NavbarTitleText {
+  text-shadow: 0px 0px 25px black;
+  transition: text-shadow 0.2s ease-in-out;
+}

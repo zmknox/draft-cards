@@ -1,0 +1,166 @@
+{
+    "name": "The Upgrade WWDC16 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 92",
+    "link": "https://relay.fm/upgrade/92",
+    "finished": true,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke1.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "iPad multitasking improvements",
+                        "correct": false
+                    },
+                    {
+                        "pick": "OS X renamed to macOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New MacBook Pro",
+                        "correct": false
+                    },
+                    {
+                        "pick": "macOS Siri support",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New 3D Touch actions",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Siri API",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPad Pro developer tools",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Music revamp",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Siri speaker announced",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New Apple Watch home screen",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Watch side button change",
+                        "correct": true
+                    },
+                    {
+                        "pick": "(More) native watch apps",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone multitasking",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New Mac Pro",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Safari technology improvements",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New external retina display",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Customizable Control Center",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Major Mac App Store changes",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Major changes to CarPlay",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iOS software keyboard improvements",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Custom watch faces",
+                        "correct": false
+                    },
+                    {
+                        "pick": "System-wide iOS dark mode",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Cleaner Apple Watch backup/ restore",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Untethering Apple Watch from iPhone",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Replacement for iTunes on Mac",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Swift announcement",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Spinal Tap performs",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Watch 2",
+                        "correct": false
+                    }
+                ]                           
+            ]
+        }
+    ]
+}

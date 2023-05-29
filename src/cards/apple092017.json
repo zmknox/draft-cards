@@ -1,0 +1,86 @@
+{
+  "name": "The Upgrade September 2017 Event Draft",
+  "preLinkText": "As heard on ",
+  "linkText": "Upgrade 157",
+  "link": "https://relay.fm/upgrade/157",
+  "finished": true,
+  "contestants": [
+    {
+      "name": "Jason",
+      "link": "https://zeppelin.flights/@jsnell",
+      "icon": "/img/avatars/snell.png"
+    },
+    {
+      "name": "Myke",
+      "link": "https://myke.social/@imyke",
+      "icon": "/img/avatars/myke3.jpg"
+    }
+  ],
+  "sections": [
+    {
+      "graded": true,
+      "entries": [
+        [
+          {
+            "pick": "Face unlock on an iPhone",
+            "correct": true
+          },
+          {
+            "pick": "Three iPhones announced",
+            "correct": true
+          }
+        ],
+        [
+          {
+            "pick": "AR demo on stage",
+            "correct": true
+          },
+          {
+            "pick": "A new iPhone starts at $1000",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "4K/HDR Apple TV announced",
+            "correct": true
+          },
+          {
+            "pick": "No Touch ID on high-end iPhone",
+            "correct": true
+          }
+        ],
+        [
+          {
+            "pick": "Apple Watch gets cellular connectivity",
+            "correct": true
+          },
+          {
+            "pick": "Dual cameras on new iPhones (not the SE if it's updated)",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "Mention of macOS/ the Mac on stage",
+            "correct": false
+          },
+          {
+            "pick": "Picture of Steve Jobs on a slide",
+            "correct": true
+          }
+        ],
+        [
+          {
+            "pick": "Explanation of why OLED is superior screen tech",
+            "correct": true
+          },
+          {
+            "pick": "Name of the high-end iPhone is \"iPhone Pro\"",
+            "correct": false
+          }
+        ]
+      ]
+    }
+  ]
+}

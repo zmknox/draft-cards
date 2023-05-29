@@ -1,0 +1,106 @@
+{
+  "name": "The Upgrade March 2018 Event Draft",
+  "preLinkText": "As heard on ",
+  "linkText": "Upgrade 185",
+  "link": "https://relay.fm/upgrade/185",
+  "finished": true,
+  "contestants": [
+    {
+      "name": "Jason",
+      "link": "https://zeppelin.flights/@jsnell",
+      "icon": "/img/avatars/snell.png"
+    },
+    {
+      "name": "Myke",
+      "link": "https://myke.social/@imyke",
+      "icon": "/img/avatars/myke3.jpg"
+    }
+  ],
+  "sections": [
+    {
+      "graded": true,
+      "entries": [
+        [
+          {
+            "pick": "New Apple Classroom features",
+            "correct": true
+          },
+          {
+            "pick": "New basic iPad (sixth generation)",
+            "correct": true
+          }
+        ],
+        [
+          {
+            "pick": "Apple Pencil support on non-pro iPads",
+            "correct": true
+          },
+          {
+            "pick": "iBooks update",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "ClassKit",
+            "correct": true
+          },
+          {
+            "pick": "A focus on \"family\" features",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "A new Apple-created iOS app debuts",
+            "correct": true
+          },
+          {
+            "pick": "MacBook Air gets a price cut",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "New MacBook model",
+            "correct": false
+          },
+          {
+            "pick": "iOS 11.3",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "iPad has lower base price",
+            "correct": false
+          },
+          {
+            "pick": "iWork updates",
+            "correct": true
+          }
+        ],
+        [
+          {
+            "pick": "AirPower released",
+            "correct": false
+          },
+          {
+            "pick": "New AirPods",
+            "correct": false
+          }
+        ],
+        [
+          {
+            "pick": "New Apple Pencil",
+            "correct": false
+          },
+          {
+            "pick": "MacBook Air gets actual update",
+            "correct": false
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -3,118 +3,290 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple WWDC 2023 Keynote",
+            "date": "June 2023",
+            "img": "/img/cards/apple062023.jpg",
+            "card": "apple062023",
+            "tags": [
+                "wwdc",
+                "active"
+            ]
+        },
+        {
             "name": "Apple \"Far out.\" Event",
             "date": "September 2022",
             "img": "/img/cards/apple092022.jpg",
-            "card": "apple092022"
+            "card": "apple092022",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "airpods",
+                "myke"
+            ]
         },
         {
             "name": "Apple WWDC 2022 Keynote",
             "date": "June 2022",
             "img": "/img/cards/apple062022.jpg",
-            "card": "apple062022"
+            "card": "apple062022",
+            "tags": [
+                "wwdc",
+                "mac",
+                "myke"
+            ]
         },
         {
             "name": "Upgrade Episode 500 Draft of the Ages",
             "date": "March 2022",
             "img": "/img/cards/upgradelogo.jpg",
-            "card": "upgrade400"
+            "card": "upgrade400",
+            "tags": [
+                "ages",
+                "active"
+            ]
         },
         {
             "name": "Apple \"Peek performance.\" Event",
             "date": "March 2022",
             "img": "/img/cards/apple032022.jpg",
-            "card": "apple032022"
+            "card": "apple032022",
+            "tags": [
+                "spring",
+                "mac",
+                "iphone",
+                "ipad",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"Unleashed.\" Event",
             "date": "October 2021",
             "img": "/img/cards/apple102021.jpg",
-            "card": "apple102021"
+            "card": "apple102021",
+            "tags": [
+                "mac",
+                "airpods",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"California Streaming.\" Event",
             "date": "September 2021",
             "img": "/img/cards/apple092021.jpg",
-            "card": "apple092021"
+            "card": "apple092021",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "ipad",
+                "jason"
+            ]
         },
         {
             "name": "Apple WWDC 2021 Keynote",
             "date": "June 2021",
             "img": "/img/cards/apple062021.jpg",
-            "card": "apple062021"
+            "card": "apple062021",
+            "tags": [
+                "wwdc",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"Spring Loaded.\" Event",
             "date": "April 2021",
             "img": "/img/cards/apple042021.jpg",
-            "card": "apple042021"
+            "card": "apple042021",
+            "tags": [
+                "spring",
+                "mac",
+                "ipad",
+                "apple-tv",
+                "myke"
+            ]
         },
         {
             "name": "Apple \"One more thing.\" Event",
             "date": "November 2020",
             "img": "/img/cards/apple112020.jpg",
-            "card": "apple112020"
+            "card": "apple112020",
+            "tags": [
+                "mac",
+                "jason"
+            ]
         },
         {
             "name": "Apple\"Hi, Speed.\" Event",
             "date": "October 2020",
             "img": "/img/cards/apple102020.jpg",
-            "card": "apple102020"
+            "card": "apple102020",
+            "tags": [
+                "iphone",
+                "homepod",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"Time Flies.\" Event",
             "date": "September 2020",
             "img": "/img/cards/apple092020.jpg",
-            "card": "apple092020"
+            "card": "apple092020",
+            "tags": [
+                "apple-watch",
+                "ipad",
+                "jason"
+            ]
         },
         {
             "name": "Apple WWDC 2020 Keynote",
             "date": "June 2020",
             "img": "/img/cards/apple062020.jpg",
-            "card": "apple062020"
+            "card": "apple062020",
+            "tags": [
+                "wwdc",
+                "jason"
+            ]
         },
         {
             "name": "Apple by Upgrade Episode 400",
             "date": "June 2020",
             "img": "/img/cards/upgradelogo.jpg",
-            "card": "upgrade300"
+            "card": "upgrade300",
+            "tags": [
+                "ages",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"By innovation only.\" Event",
             "date": "September 2019",
             "img": "/img/cards/apple092019.jpg",
-            "card": "apple092019"
+            "card": "apple092019",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "ipad",
+                "jason"
+            ]
         },
         {
             "name": "Apple WWDC 2019 Keynote",
             "date": "June 2019",
             "img": "/img/cards/apple062019.jpg",
-            "card": "apple062019"
+            "card": "apple062019",
+            "tags": [
+                "wwdc",
+                "mac",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"It's show time.\" Event",
             "date": "March 2019",
             "img": "/img/cards/apple032019.jpg",
-            "card": "apple032019"
+            "card": "apple032019",
+            "tags": [
+                "spring",
+                "jason"
+            ]
         },
         {
             "name": "Apple \"There's more in the making.\" Event",
             "date": "October 2018",
             "img": "/img/cards/apple102018.jpg",
-            "card": "apple102018"
+            "card": "apple102018",
+            "tags": [
+                "mac",
+                "ipad",
+                "myke"
+            ]
         },
         {
             "name": "Apple \"Gather round.\" Evemt",
             "date": "September 2018",
             "img": "/img/cards/apple092018.jpg",
-            "card": "apple092018"
+            "card": "apple092018",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "jason"
+            ]
         },
         {
             "name": "Apple WWDC 2018 Keynote",
             "date": "June 2018",
             "img": "/img/cards/apple062018.jpg",
-            "card": "apple062018"
+            "card": "apple062018",
+            "tags": [
+                "wwdc",
+                "myke"
+            ]
+        },
+        {
+            "name": "Apple \"Let's take a field trip.\" Event",
+            "date": "March 2018",
+            "img": "/img/cards/apple032018.jpg",
+            "card": "apple032018",
+            "tags": [
+                "ipad",
+                "spring",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple \"Let's meet at our place.\" Event",
+            "date": "September 2017",
+            "img": "/img/cards/apple092017.jpg",
+            "card": "apple092017",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "apple-tv",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple WWDC 2017 Keynote",
+            "date": "June 2017",
+            "img": "/img/cards/apple062017.jpg",
+            "card": "apple062017",
+            "tags": [
+                "wwdc",
+                "mac",
+                "ipad",
+                "homepod",
+                "myke"
+            ]
+        },
+        {
+            "name": "Apple \"hello again\" Event",
+            "date": "October 2016",
+            "img": "/img/cards/apple102016.jpg",
+            "card": "apple102016",
+            "tags": [
+                "mac",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple \"See you on the 7th.\" Event",
+            "date": "September 2016",
+            "img": "/img/cards/apple092016.jpg",
+            "card": "apple092016",
+            "tags": [
+                "iphone",
+                "apple-watch",
+                "jason"
+            ]
+        },
+        {
+            "name": "Apple WWDC 2016 Keynote",
+            "date": "June 2016",
+            "img": "/img/cards/apple062016.jpg",
+            "card": "apple062016",
+            "tags": [
+                "wwdc",
+                "myke"
+            ]
         }
     ]
 }

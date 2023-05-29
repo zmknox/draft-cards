@@ -1,0 +1,230 @@
+{
+    "name": "The Upgrade WWDC23 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 461",
+    "link": "https://relay.fm/upgrade/461",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iOS and iPadOS picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Health app on iPad",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Widgets on the iPad lock screen",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Lid-closed mode for iPad when connected to an external display",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Journaling app",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "More functionality for lock screen / always-on display",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Control Center redesign",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Interactive widgets",
+                        "correct": false
+                    },
+                    {
+                        "pick": "More functionality for the Dynamic Island",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Headset picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Headset is called \"Reality Pro\"",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Consumer headset pricing not announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "VR FaceTime demo",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Headset shipping later this year",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "External battery pack",
+                        "correct": false
+                    },
+                    {
+                        "pick": "VR fitness experience shown",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Facial expression tracking",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPad apps running in VR demoed",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "M2 chip mentioned as helping to power the headset",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Desktop computer experience mode shown",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Mac Pro teaser",
+                        "correct": true
+                    },
+                    {
+                        "pick": "watchOS features widget-like interface",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Smart Watch complications change based on data",
+                        "correct": true
+                    },
+                    {
+                        "pick": "15\" MacBook Air unveiled",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Quadbox across apps (not just the TV app)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New (non-headset related) Apple Silicon chip introduced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Third party watch faces",
+                        "correct": true
+                    },
+                    {
+                        "pick": "tvOS not mentioned",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+                {
+            "name": "Stagecraft picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Game demos with guests from game studios",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Craig Federighi appearance",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Explicit exhortation to watch State of the Union for OS details",
+                        "correct": true
+                    },
+                    {
+                        "pick": "\"Metaverse\" not said",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Bonus Round: macOS Names",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "macOS Mendocino, macOS Mammoth",
+                        "correct": false
+                    },
+                    {
+                        "pick": "macOS Tahoe, macOS Golden Gate",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+
+        {
+            "name": "Tiebreaker: Will the event be over or under 120 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under or equal",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Over",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

@@ -114,8 +114,12 @@ export default class DraftCard extends Component {
         } else if (this.state.sections[sectionIndex][entryIndex][cellIndex] === 'wrong') {
             cellState = 'red-cell';
         }
+        let colVal = 5;
+        if (this.state.card.contestants.length != 2) {
+            colVal = 12 / this.state.card.contestants.length;
+        }
         return (
-            <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded)} className={cellState + " col-5 text-center"}>{pick.pick}</th>
+            <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded)} className={cellState + " col-" + colVal + " text-center"}>{pick.pick}</th>
         )
     }
 
@@ -221,6 +225,8 @@ export default class DraftCard extends Component {
                                                         </>
                                                     )
                                                 }
+                                            } else if (this.state.card.contestants.length == 3) {
+                                                col = 'col-4';
                                             }
                                             return (
                                                 <th className={col + ' text-center'}>
@@ -241,15 +247,22 @@ export default class DraftCard extends Component {
                                     })}
 
                                     <tr className="d-flex">
-                                        <th className="col-5 text-center">
-                                            <h3>{this.state.totals[0]}</h3>
-                                        </th>
-                                        <th className="col-2 text-center row-th">
-                                            <h3>Total</h3>
-                                        </th>
-                                        <th className="col-5 text-center">
-                                            <h3>{this.state.totals[1]}</h3>
-                                        </th>
+                                        {this.state.card.contestants.map((contestant, contestantIndex) => {
+                                            let colVal = 5;
+                                            if (this.state.card.contestants.length != 2) {
+                                                colVal = 12 / this.state.card.contestants.length;
+                                            }
+                                            const returning = [];
+                                            if (contestantIndex == 1 && this.state.card.contestants.length == 2) {
+                                                returning.push(<th className="col-2 text-center row-th">
+                                                    <h3>Total</h3>
+                                                </th>);
+                                            }
+                                            returning.push(<th className={"col-" + colVal + " text-center"}>
+                                                <h3>{this.state.totals[contestantIndex]}</h3>
+                                            </th>)
+                                            return returning;
+                                        })}
                                     </tr>
 
                                     {this.state.card.sections.map((section, sectionIndex) => {
@@ -266,7 +279,7 @@ export default class DraftCard extends Component {
                     <br />
                     <Row>
                         <Col>
-                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://twitter.com/zmknox">@zmknox</a>.</h5>
+                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://snailedit.social/@zmk">zmknox</a>.</h5>
                         </Col>
                     </Row>
                 </Container>

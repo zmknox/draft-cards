@@ -1,0 +1,50 @@
+{
+    "active": {
+        "name": "Active",
+        "description": "Drafts that have not yet been fully scored"
+    },
+    "ages": {
+        "name": "Drafts of the Ages",
+        "description": "Predictions for the world as it will be 100 episodes later"
+    },
+    "jason": {
+        "name": "Jason Wins",
+        "description": "Drafts that Jason Snell won"
+    },
+    "myke": {
+        "name": "Myke Wins",
+        "description": "Drafts that Myke Hurley won"
+    },
+    "airpods": {
+        "name": "AirPods",
+        "description": "Predictions for events where new AirPods was announced"
+    },
+    "apple-tv": {
+        "name": "Apple TV",
+        "description": "Predictions for events where a new Apple TV was announced"
+    },
+    "apple-watch": {
+        "name": "Apple Watch",
+        "description": "Predictions for events where a new Apple Watch was announced"
+    },
+    "homepod": {
+        "name": "HomePod",
+        "description": "Predictions for events where a new HomePod was announced"
+    },
+    "ipad": {
+        "name": "iPad",
+        "description": "Predictions for events where a new iPad was announced"
+    },
+    "iphone": {
+        "name": "iPhone",
+        "description": "Predictions for events where a new iPhone was announced"
+    },
+    "spring": {
+        "name": "Spring event",
+        "description": "Predictions for events from the spring"
+    },
+    "wwdc": {
+        "name": "WWDC",
+        "description": "Predictions for the keynote of Apple's Worldwide Developers Conference"
+    }
+}
