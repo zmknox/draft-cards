@@ -276,6 +276,16 @@ export default class DraftCard extends Component {
                             </Table>
                         </Col>
                     </Row>
+                    {this.state.card.footnote !== undefined ? 
+                        <>
+                            <br />
+                            <Row>
+                                <Col>
+                                    <h4 className="text-center">{this.state.card.footnote}</h4>
+                                </Col>
+                            </Row>
+                        </> : ''
+                    }
                     <br />
                     <Row>
                         <Col>

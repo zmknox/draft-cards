@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 461",
     "link": "https://relay.fm/upgrade/461",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -35,11 +35,11 @@
                 [
                     {
                         "pick": "Lid-closed mode for iPad when connected to an external display",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Journaling app",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -49,13 +49,13 @@
                     },
                     {
                         "pick": "Control Center redesign",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Interactive widgets",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "More functionality for the Dynamic Island",
@@ -91,11 +91,11 @@
                 [
                     {
                         "pick": "External battery pack",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "VR fitness experience shown",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -105,7 +105,7 @@
                     },
                     {
                         "pick": "iPad apps running in VR demoed",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -115,7 +115,7 @@
                     },
                     {
                         "pick": "Desktop computer experience mode shown",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
@@ -131,13 +131,13 @@
                     },
                     {
                         "pick": "watchOS features widget-like interface",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "Smart Watch complications change based on data",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "15\" MacBook Air unveiled",
@@ -147,21 +147,21 @@
                 [
                     {
                         "pick": "Quadbox across apps (not just the TV app)",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New (non-headset related) Apple Silicon chip introduced",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "Third party watch faces",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "tvOS not mentioned",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -173,11 +173,11 @@
                 [
                     {
                         "pick": "Game demos with guests from game studios",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Craig Federighi appearance",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -187,7 +187,7 @@
                     },
                     {
                         "pick": "\"Metaverse\" not said",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
