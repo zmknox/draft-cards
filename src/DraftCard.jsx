@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 import React, { Component } from 'react';
 import './DraftCard.css';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,7 @@ export default class DraftCard extends Component {
         this.resetButton = this.resetButton.bind(this);
         this.calculateTotals = this.calculateTotals.bind(this);
         this.handleSelection = this.handleSelection.bind(this);
+        this.updateWagerEntry = this.updateWagerEntry.bind(this);
         this.calculateWagerSectionWinner = this.calculateWagerSectionWinner.bind(this);
         this.makeCell = this.makeCell.bind(this);
         this.renderButton = this.renderButton.bind(this);
@@ -116,6 +118,7 @@ export default class DraftCard extends Component {
         const currentState = this.state.sections[sectionIndex][entryIndex][cellIndex];
         let newState;
         let totals = this.state.totals;
+        let sections = this.state.sections;
         let sectionScores = this.state.sectionScores;
         let sectionTotals = this.state.sectionTotals;
         let contestantIndex = cellIndex;
@@ -123,42 +126,37 @@ export default class DraftCard extends Component {
             contestantIndex = 1
         }
 
-        switch(currentState) {
-            case 'undecided':
-                newState = 'correct';
-                switch (graded) {
-                    case 'wager':
-                        sectionScores[sectionIndex][contestantIndex] += wager;
-                        sectionTotals = this.calculateWagerSectionWinner(sectionIndex);
-                        break;
-                    case true:
+        switch (graded) {
+            case 'wager':
+                let newSectionData = this.updateWagerEntry(sectionIndex, entryIndex);
+                sections = newSectionData.sections;
+                sectionScores = newSectionData.sectionScores;
+                sectionTotals = this.calculateWagerSectionWinner(sectionIndex, sectionScores);
+                break;
+            case true:
+                switch (currentState) {
+                    case 'undecided':
+                        newState = 'correct';
                         sectionTotals[sectionIndex][contestantIndex] += 1;
                         totals[cellIndex] += 1;
                         break;
-                }
-                break;
-            case 'correct':
-                newState = 'wrong';
-                switch (graded) {
-                    case 'wager':
-                        sectionScores[sectionIndex][contestantIndex] -= wager;
-                        sectionTotals = this.calculateWagerSectionWinner(sectionIndex);
-                        break;
-                    case true:
+                    case 'correct':
+                        newState = 'wrong';
                         sectionTotals[sectionIndex][contestantIndex] -= 1;
                         totals[cellIndex] -= 1;
                         break;
+                    case 'wrong':
+                        newState = 'undecided';
+                        break;
+                    default:
+                        newState = 'wrong';
+                        break;
                 }
-                break;
-            case 'wrong': 
-                newState = 'undecided';
-                break;
-            default:
-                newState = 'wrong';
+                
+                sections[sectionIndex][entryIndex][cellIndex] = newState;
                 break;
         }
-        let sections = this.state.sections;
-        sections[sectionIndex][entryIndex][cellIndex] = newState;
+
         
         this.setState({
             sections: sections,
@@ -169,8 +167,38 @@ export default class DraftCard extends Component {
         return this.state;
     }
 
-    calculateWagerSectionWinner(sectionIndex) {
+    updateWagerEntry(sectionIndex, entryIndex) {
         let sectionScores = this.state.sectionScores;
+        let sections = this.state.sections;
+        const entries = this.state.card.sections[sectionIndex].entries[entryIndex];
+
+        let currentState = this.state.sections[sectionIndex][entryIndex][0];
+        for (let contestantIndex in entries) {
+            let cellIndex = entries.length === 2 && contestantIndex === 1 ? 1 : contestantIndex;
+            let newState = '';
+            switch (currentState) {
+                case 'undecided':
+                    sectionScores[sectionIndex][contestantIndex] += entries[contestantIndex].wager;
+                    newState = 'correct';
+                    break;
+                case 'correct':
+                    sectionScores[sectionIndex][contestantIndex] -= entries[contestantIndex].wager;
+                    newState = 'wrong';
+                    break;
+                case 'wrong':
+                    newState = 'undecided';
+                    break;
+            }
+            sections[sectionIndex][entryIndex][cellIndex] = newState;
+        }
+        
+        return {
+            sections,
+            sectionScores
+        };
+    }
+
+    calculateWagerSectionWinner(sectionIndex, sectionScores) {
         let sectionTotals = this.state.sectionTotals;
 
         let highest = undefined;
