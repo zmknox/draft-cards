@@ -4,9 +4,9 @@ React implementation of my [Upgrade Draft Scorecards](https://zmknox.com/bingo/d
 
 ## Local Development
 
-You'll need Node.js 12 or newer. You can install dependencies with `yarn`, and start the application with `yarn start`.
+You'll need Node.js 16 or newer. You can install dependencies with `npm install`, and start the application with `npm start`.
 
-To build a production ready version of this app, run `yarn build`.
+To build a production ready version of this app, run `npm run build`.
 
 There are a lot of scripts in the `package.json` that were provided by Create React App. You probably don't need to worry about them.
 
