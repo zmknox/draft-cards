@@ -155,6 +155,24 @@ export default class DraftCard extends Component {
                 
                 sections[sectionIndex][entryIndex][cellIndex] = newState;
                 break;
+            case false:
+                switch (currentState) {
+                    case 'undecided':
+                        newState = 'correct';
+                        break;
+                    case 'correct':
+                        newState = 'wrong';
+                        break;
+                    case 'wrong':
+                        newState = 'undecided';
+                        break;
+                    default:
+                        newState = 'wrong';
+                        break;
+                }
+
+                sections[sectionIndex][entryIndex][cellIndex] = newState;
+                break;
         }
 
         
