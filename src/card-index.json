@@ -3,6 +3,15 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple \"Wonderlust.\" Event",
+            "date": "September 2023",
+            "img": "/img/cards/apple092022.jpg",
+            "card": "apple092023",
+            "tags": [
+                "active"
+            ]
+        },
+        {
             "name": "Apple WWDC 2023 Keynote",
             "date": "June 2023",
             "img": "/img/cards/apple062023.jpg",

@@ -10,13 +10,22 @@ export default class DraftCard extends Component {
         this.state = {
             card: require(`./cards/${props.card}.json`)
         }
+        this.resetCard = this.resetCard.bind(this);
+        this.resetButton = this.resetButton.bind(this);
+        this.calculateTotals = this.calculateTotals.bind(this);
         this.handleSelection = this.handleSelection.bind(this);
+        this.calculateWagerSectionWinner = this.calculateWagerSectionWinner.bind(this);
         this.makeCell = this.makeCell.bind(this);
         this.renderButton = this.renderButton.bind(this);
         this.setResults = this.setResults.bind(this);
         let sections = [];
+        let sectionScores = [];
+        let sectionTotals = []
         for (let section of this.state.card.sections) {
             let entries = [];
+            let sectionScore = [];
+            let sectionTotal = [];
+            let i = 0;
             for (let entry of section.entries) {
                 let cells = [];
                 for (let _ of entry) {
@@ -24,10 +33,25 @@ export default class DraftCard extends Component {
                     // TODO in future: Potentially default to known results
                 }
                 entries.push(cells);
+                if (i === 0) {
+                    for (let contestant of this.state.card.contestants) {
+                        sectionScore.push(0);
+                        sectionTotal.push(0);
+                    }
+                    // if (sectionScore.length === 1) {
+                    //     sectionScore.push(-99999999);
+                    // }
+                }
+                i += 1;
             }
             sections.push(entries);
+            sectionScores.push(sectionScore);
+            sectionTotals.push(sectionTotal);
         }
+        this.state.dropColumn = this.state.card.contestants.length === 2;
         this.state.sections = sections;
+        this.state.sectionScores = sectionScores;
+        this.state.sectionTotals = sectionTotals;
 
         let totals = [];
         for (let _ of this.state.card.contestants) {
@@ -36,22 +60,94 @@ export default class DraftCard extends Component {
         this.state.totals = totals;
     }
 
-    handleSelection(sectionIndex, entryIndex, cellIndex, graded) {
+    calculateTotals(contestantIndex) {
+        let total = 0;
+        for (let section of this.state.sectionTotals) {
+            total += section[contestantIndex];
+        }
+        return total;
+    }
+
+    resetCard() {
+        let sections = [];
+        let sectionScores = [];
+        let sectionTotals = []
+        for (let section of this.state.card.sections) {
+            let entries = [];
+            let sectionScore = [];
+            let sectionTotal = [];
+            let i = 0;
+            for (let entry of section.entries) {
+                let cells = [];
+                for (let _ of entry) {
+                    cells.push('undecided');
+                    // TODO in future: Potentially default to known results
+                }
+                entries.push(cells);
+                if (i === 0) {
+                    for (let contestant of this.state.card.contestants) {
+                        sectionScore.push(0);
+                        sectionTotal.push(0);
+                    }
+                    // if (sectionScore.length === 1) {
+                    //     sectionScore.push(-99999999);
+                    // }
+                }
+                i += 1;
+            }
+            sections.push(entries);
+            sectionScores.push(sectionScore);
+            sectionTotals.push(sectionTotal);
+        }
+
+        return {
+            sections,
+            sectionScores,
+            sectionTotals
+        };
+    }
+
+    resetButton() {
+        const newState = this.resetCard();
+        this.setState(newState);
+    }
+
+    handleSelection(sectionIndex, entryIndex, cellIndex, graded, wager) {
         const currentState = this.state.sections[sectionIndex][entryIndex][cellIndex];
         let newState;
         let totals = this.state.totals;
+        let sectionScores = this.state.sectionScores;
+        let sectionTotals = this.state.sectionTotals;
+        let contestantIndex = cellIndex;
+        if (cellIndex === 2 && this.state.dropColumn) {
+            contestantIndex = 1
+        }
 
         switch(currentState) {
             case 'undecided':
                 newState = 'correct';
-                if (graded === true) {
-                    totals[cellIndex] += 1;
+                switch (graded) {
+                    case 'wager':
+                        sectionScores[sectionIndex][contestantIndex] += wager;
+                        sectionTotals = this.calculateWagerSectionWinner(sectionIndex);
+                        break;
+                    case true:
+                        sectionTotals[sectionIndex][contestantIndex] += 1;
+                        totals[cellIndex] += 1;
+                        break;
                 }
                 break;
             case 'correct':
                 newState = 'wrong';
-                if (graded === true) {
-                    totals[cellIndex] -= 1;
+                switch (graded) {
+                    case 'wager':
+                        sectionScores[sectionIndex][contestantIndex] -= wager;
+                        sectionTotals = this.calculateWagerSectionWinner(sectionIndex);
+                        break;
+                    case true:
+                        sectionTotals[sectionIndex][contestantIndex] -= 1;
+                        totals[cellIndex] -= 1;
+                        break;
                 }
                 break;
             case 'wrong': 
@@ -64,47 +160,68 @@ export default class DraftCard extends Component {
         let sections = this.state.sections;
         sections[sectionIndex][entryIndex][cellIndex] = newState;
         
-        
         this.setState({
             sections: sections,
+            sectionScores: sectionScores,
+            sectionTotals: sectionTotals,
             totals: totals
         });
+        return this.state;
+    }
 
+    calculateWagerSectionWinner(sectionIndex) {
+        let sectionScores = this.state.sectionScores;
+        let sectionTotals = this.state.sectionTotals;
+
+        let highest = undefined;
+        let highestIndex = [];
+        let totals = [];
+        let foundNonZero = false; // if everyone is zero, nobody gets points
+        for(let contestantIndex in sectionScores[sectionIndex]) {
+            totals.push(0)
+            if (highest == undefined || sectionScores[sectionIndex][contestantIndex] > highest) {
+                highest = sectionScores[sectionIndex][contestantIndex];
+                highestIndex = [contestantIndex];
+            } else if (sectionScores[sectionIndex][contestantIndex] == highest) {
+                highestIndex.push(contestantIndex);
+            }
+            if (sectionScores[sectionIndex][contestantIndex] !== 0) {
+                foundNonZero = true;
+            }
+        }
+        if (foundNonZero) {
+            for (let index of highestIndex) {
+                totals[index] = 1;
+            }
+        }
+        sectionTotals[sectionIndex] = totals;
+
+        return sectionTotals;
     }
 
     setResults() {
-        let totals = [];
-        for (let _ of this.state.card.contestants) {
-            totals.push(0);
-        }
-
-        let sections = [];
-        for (let section of this.state.card.sections) {
-            let entries = [];
-            console.log(section);
-            for (let entry of section.entries) {
-                let cells = [];
-                let index = 0; // yes this is dumb
-                for (let pick of entry) {
-                    if (pick.correct) {
-                        cells.push('correct')
-                        if (section.graded) {
-                            totals[index] += 1;
+        let newState = this.resetCard();
+        this.setState(newState, () => {
+            for (let sectionIndex in this.state.card.sections) {
+                let section = this.state.card.sections[sectionIndex];
+                for (let entryIndex in section.entries) {
+                    const entry = section.entries[entryIndex];
+                    let cells = [];
+                    let index = 0; // yes this is dumb
+                    for (let pick of entry) {
+                        if (pick.correct) {
+                            this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                        } else {
+                            // incorrect is just pushing up the state machine twice
+                            // undecided -> correct -> wrong
+                            this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                            this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
                         }
-                    } else {
-                        cells.push('wrong');
+                        index += 1;
                     }
-                    index += 1;
                 }
-                entries.push(cells);
             }
-            sections.push(entries);
-        }
-        
-        this.setState({
-            sections: sections,
-            totals: totals
-        })
+        });
     }
 
     makeCell(pick, sectionIndex, entryIndex, cellIndex, graded) {
@@ -117,9 +234,11 @@ export default class DraftCard extends Component {
         let colVal = 5;
         if (this.state.card.contestants.length != 2) {
             colVal = 12 / this.state.card.contestants.length;
+        } else if (graded == 'wager') {
+            colVal = 3;
         }
         return (
-            <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded)} className={cellState + " col-" + colVal + " text-center"}>{pick.pick}</th>
+            <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded, pick.wager ?? 0)} className={cellState + " col-" + colVal + " text-center"}>{pick.pick}</th>
         )
     }
 
@@ -149,7 +268,7 @@ export default class DraftCard extends Component {
                     (
                         <tr className="d-flex">
                             <th colSpan={collapse} className="col-12 text-center row-heading">
-                                <h5>{section.name}</h5>
+                                <h5>{section.link ? <a href={section.link}>{section.name}</a> : section.name}</h5>
                             </th>
                         </tr>
                     ) : ''
@@ -159,10 +278,20 @@ export default class DraftCard extends Component {
                         <tr className="d-flex">
                             {row.map((pick, pickIndex) => {
                                 if (pickIndex == 1 && row.length == 2) {
+                                    let colVal = 2;
+                                    if (section.graded == 'wager') {
+                                        colVal = 6;
+                                    }
+                                    const label = Array.isArray(section.roundLabel) ? 
+                                        section.roundLabel[rowIndex] ?? round++ :
+                                        section.roundLabel ?? round++;
+                                    
                                     return (
                                         <>
-                                            <th className="col-2 text-center row-th">
-                                                <h3>{section.roundLabel ?? round++}</h3>
+                                            <th className={`white-cell col-${colVal} text-center row-th`}>
+                                                {section.graded == 'wager' ? label :
+                                                    <h3>{label}</h3>
+                                                }
                                             </th>
                                             {this.makeCell(pick, sectionIndex, rowIndex, pickIndex, section.graded)}
                                         </>
@@ -239,7 +368,7 @@ export default class DraftCard extends Component {
                                         })}
                                     </tr>
                                     {this.state.card.sections.map((section, sectionIndex) => {
-                                        if(section.graded === true) {
+                                        if(section.graded !== false) {
                                             let currentRound = round;
                                             round += section.entries.length;
                                             return this.renderSection(section, currentRound, sectionIndex);
@@ -254,12 +383,12 @@ export default class DraftCard extends Component {
                                             }
                                             const returning = [];
                                             if (contestantIndex == 1 && this.state.card.contestants.length == 2) {
-                                                returning.push(<th className="col-2 text-center row-th">
+                                                returning.push(<th className="col-2 text-center row-th total-cell">
                                                     <h3>Total</h3>
                                                 </th>);
                                             }
-                                            returning.push(<th className={"col-" + colVal + " text-center"}>
-                                                <h3>{this.state.totals[contestantIndex]}</h3>
+                                            returning.push(<th className={"col-" + colVal + " text-center total-cell"}>
+                                                <h3>{this.calculateTotals(contestantIndex)}</h3>
                                             </th>)
                                             return returning;
                                         })}
@@ -286,6 +415,11 @@ export default class DraftCard extends Component {
                             </Row>
                         </> : ''
                     }
+                    <Row className="justify-content-center">
+                        <Col bsPrefix="col-">
+                            <Button onClick={this.resetButton} variant="dark">Reset Picks</Button>
+                        </Col>
+                    </Row>
                     <br />
                     <Row>
                         <Col>

@@ -1,0 +1,231 @@
+{
+    "name": "The Upgrade September 2023 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 475",
+    "link": "https://relay.fm/upgrade/475",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell1.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke4.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "At least one phone features titanium instead of stainless steel",
+                        "correct": true
+                    },
+                    {
+                        "pick": "USB-C on all announced models",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "3nm chip only in the high-end phones",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Pro Max/Ultra phone to gain a new camera with increased telephoto zoom",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "A Pro phone gets a camera software feature that other phones don't have",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Dynamic Island comes to all announced phones",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Color matched USB-C cables",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple touts a new design for the Pro phones",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Action Button comes to at least one model, replacing the mute switch",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Color option added to at least one Pro phone is different to what we've seen before",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Apple Watch picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "No new health-related sensors",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Watch Ultra comes in a different color option",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Apple Watch Ultra hardware (colors don't count)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Series 9 features new SoC with more performance",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Video of Apple devices saving lives is shown",
+                        "correct": false
+                    },
+                    {
+                        "pick": "AirPods Pro get USB-C",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "At least one new AirPods mode (Adaptive Audio, Personalized Volume, Conversational Awareness) mentioned",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Pay a visit to Apple's \"Chip Lab\"",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Lionel Messi appears",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Rainbow stage at the center of Apple Park is seen",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "St. Jude Challenge",
+            "link": "https://www.stjude.org/relay",
+            "graded": "wager",
+            "roundLabel": [
+                "Periscope",
+                "Aerospace Grade",
+                "Bionic (in name of new chip)",
+                "Breakthrough",
+                "David Guetta's \"Titanium\""
+            ],
+            "entries": [
+                [
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": false
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "4",
+                        "wager": 4,
+                        "correct": true
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": true
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": true
+                    },
+                    {
+                        "pick": "4",
+                        "wager": 4,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 93 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under or equal",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Over",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

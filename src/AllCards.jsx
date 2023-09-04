@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Card, CardColumns, Col, Container, Image, Row } from 'react-bootstrap';
+import { Badge, Card, CardColumns, Col, Container, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './AllCards.css'
-import * as cardIndex from './card-index.json';
+import cardIndex from './card-index.json';
 
 class AllCards extends Component {
     constructor(props) {
@@ -20,7 +20,7 @@ class AllCards extends Component {
                             <Card.Img className="All-Cards-Card-Img" variant="top" src={card.img} />
                             <Card.Body>
                                 <Card.Title>{card.name}</Card.Title>
-                                <Card.Text>{card.date}</Card.Text>
+                                <Card.Text>{card.tags.includes('active') ? <Badge pill variant='info'>Active</Badge> : ''} {card.date}</Card.Text>
                             </Card.Body>
                         </Card>
                     </Link>

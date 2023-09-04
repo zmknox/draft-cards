@@ -1,13 +1,28 @@
 import React, { Component } from 'react';
-import { Card, CardColumns, Col, Container, Image, Row } from 'react-bootstrap';
+import { Badge, Card, CardColumns, Col, Container, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Landing.css'
-import * as cardIndex from './card-index.json';
+import cardIndex from './card-index.json';
 
 class Landing extends Component {
     constructor(props) {
         super(props);
         this.renderCardLinks = this.renderCardLinks.bind(this);
+        this.renderSingleCard = this.renderSingleCard.bind(this);
+    }
+
+    renderSingleCard(card) {
+        return <Col sm={6}>
+            <Link to={`/card/${card.card}`} >
+                <Card className="Home-Card">
+                    <Card.Img className="Home-Card-Img" variant="top" src={card.img} />
+                    <Card.Body>
+                        <Card.Title>{card.name}</Card.Title>
+                        <Card.Text>{card.tags.includes('active') ? <Badge pill variant='info'>Active</Badge> : ''} {card.date}</Card.Text>
+                    </Card.Body>
+                </Card>
+            </Link>
+        </Col>;
     }
 
     renderCardLinks() {
@@ -16,21 +31,18 @@ class Landing extends Component {
             if (arr.length >= 4) {
                 break;
             }
-            arr.push(
-                <Col sm={6}>
-                    <Link to={`/card/${card.card}`} >
-                        <Card className="Home-Card">
-                            <Card.Img className="Home-Card-Img" variant="top" src={card.img} />
-                            <Card.Body>
-                                <Card.Title>{card.name}</Card.Title>
-                                <Card.Text>{card.date}</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Link>
-                </Col>
-            )
+            if (card.tags.includes('active')) {
+                arr.push(this.renderSingleCard(card));
+            }
         }
-
+        for (let card of cardIndex.cards) {
+            if (arr.length >= 4) {
+                break;
+            }
+            if (!card.tags.includes('active')) {
+                arr.push(this.renderSingleCard(card));
+            }
+        }
         return arr;
     }
 
