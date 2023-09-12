@@ -91,7 +91,7 @@
                 [
                     {
                         "pick": "New Apple Watch Ultra hardware (colors don't count)",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Series 9 features new SoC with more performance",
