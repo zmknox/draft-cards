@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 475",
     "link": "https://relay.fm/upgrade/475",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -45,7 +45,7 @@
                 [
                     {
                         "pick": "A Pro phone gets a camera software feature that other phones don't have",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Dynamic Island comes to all announced phones",
@@ -55,7 +55,7 @@
                 [
                     {
                         "pick": "Color matched USB-C cables",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Apple touts a new design for the Pro phones",
@@ -65,7 +65,7 @@
                 [
                     {
                         "pick": "Action Button comes to at least one model, replacing the mute switch",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Color option added to at least one Pro phone is different to what we've seen before",
@@ -85,13 +85,13 @@
                     },
                     {
                         "pick": "Apple Watch Ultra comes in a different color option",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "New Apple Watch Ultra hardware (colors don't count)",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Series 9 features new SoC with more performance",
@@ -107,7 +107,7 @@
                 [
                     {
                         "pick": "Video of Apple devices saving lives is shown",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "AirPods Pro get USB-C",
@@ -117,7 +117,7 @@
                 [
                     {
                         "pick": "At least one new AirPods mode (Adaptive Audio, Personalized Volume, Conversational Awareness) mentioned",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Pay a visit to Apple's \"Chip Lab\"",
@@ -157,7 +157,7 @@
                     {
                         "pick": "2",
                         "wager": 2,
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -176,12 +176,12 @@
                     {
                         "pick": "3",
                         "wager": 3,
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "2",
                         "wager": 2,
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -200,12 +200,12 @@
                     {
                         "pick": "0",
                         "wager": 0,
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "0",
                         "wager": 0,
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]

@@ -255,13 +255,15 @@ export default class DraftCard extends Component {
                     let cells = [];
                     let index = 0; // yes this is dumb
                     for (let pick of entry) {
-                        if (pick.correct) {
-                            this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
-                        } else {
-                            // incorrect is just pushing up the state machine twice
-                            // undecided -> correct -> wrong
-                            this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
-                            this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                        if (index === 0 || section.graded !== 'wager') {
+                            if (pick.correct) {
+                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                            } else {
+                                // incorrect is just pushing up the state machine twice
+                                // undecided -> correct -> wrong
+                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                            }
                         }
                         index += 1;
                     }
