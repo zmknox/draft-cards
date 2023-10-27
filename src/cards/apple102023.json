@@ -1,0 +1,101 @@
+{
+    "name": "The Upgrade October 2023 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 483",
+    "link": "https://relay.fm/upgrade/483",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell1.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke4.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "name": "Mac picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Draft Picks to come",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Draft Picks to come",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under TKTK minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "",
+                        "correct": true
+                    },
+                    {
+                        "pick": "",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

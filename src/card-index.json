@@ -3,12 +3,23 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple \"Scary fast.\" Event",
+            "date": "October 2023",
+            "img": "/img/cards/apple102023.jpg",
+            "card": "apple102023",
+            "tags": [
+                "active"
+            ]
+        },
+        {
             "name": "Apple \"Wonderlust.\" Event",
             "date": "September 2023",
             "img": "/img/cards/apple092023.jpg",
             "card": "apple092023",
             "tags": [
-                "active"
+                "iphone",
+                "apple-watch",
+                "myke"
             ]
         },
         {
@@ -126,7 +137,7 @@
             ]
         },
         {
-            "name": "Apple\"Hi, Speed.\" Event",
+            "name": "Apple \"Hi, Speed.\" Event",
             "date": "October 2020",
             "img": "/img/cards/apple102020.jpg",
             "card": "apple102020",
