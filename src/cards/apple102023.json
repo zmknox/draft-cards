@@ -24,41 +24,41 @@
             "entries": [
                 [
                     {
-                        "pick": "Draft Picks to come",
+                        "pick": "New 24” iMac models introduced",
                         "correct": true
                     },
                     {
-                        "pick": "Draft Picks to come",
+                        "pick": "M3 processor announced",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "New 14” and 16” MacBook Pro models introduced",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Peripherals updated with USB-C",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "13” MacBook Pro no longer has Touch Bar, has MagSafe",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "New 13” MacBook Pro model introduced",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "",
+                        "pick": "Apple mouse redesigned to not charge on the bottom",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "iMacs have the same colors",
                         "correct": true
                     }
                 ]
@@ -70,28 +70,28 @@
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "A creative professional testifies about the power of a new product",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Game demo",
                         "correct": true
                     }
                 ]
             ]
         },
         {
-            "name": "Tiebreaker: Will the event be over or under TKTK minutes?",
+            "name": "Tiebreaker: Will the event be over or under 27 minutes?",
             "graded": false,
             "roundLabel": "Tie?",
             "entries": [
                 [
                     {
-                        "pick": "",
+                        "pick": "Under or equal",
                         "correct": true
                     },
                     {
-                        "pick": "",
+                        "pick": "Over",
                         "correct": false
                     }
                 ]
