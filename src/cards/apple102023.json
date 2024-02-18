@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 483",
     "link": "https://relay.fm/upgrade/483",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -39,23 +39,23 @@
                     },
                     {
                         "pick": "Peripherals updated with USB-C",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "13” MacBook Pro no longer has Touch Bar, has MagSafe",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New 13” MacBook Pro model introduced",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Apple mouse redesigned to not charge on the bottom",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "iMacs have the same colors",
@@ -71,11 +71,11 @@
                 [
                     {
                         "pick": "A creative professional testifies about the power of a new product",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Game demo",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -88,11 +88,11 @@
                 [
                     {
                         "pick": "Under or equal",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Over",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
