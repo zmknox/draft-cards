@@ -1,0 +1,124 @@
+{
+    "name": "The Upgrade March 2024 iPad Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 505",
+    "link": "https://relay.fm/upgrade/505",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell1.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke4.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New Apple Pencil introduced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Both iPad Pro models have an OLED display",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Larger trackpad on the Magic Keyboard",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPad Pro front camera is on the horizontal edge",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "The base model iPad receives an update",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPad Air comes in current iPad Pro sizes",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "An iPad Pro case is offered in a color that isn’t essentially gray, white, or black",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iPad Pro starts at a higher price",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPad Pro has a new OS feature that takes advantage of a new accessory",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Magic Keyboard has a function row",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Magic Keyboard comes color matched to iPad Pro models",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPad Air front camera is on the horizontal edge",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Magic Keyboard only works with 2024 iPad Pro models",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple Pencil charges magnetically",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New Apple Pencil has an eraser",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPad Pro gets MagSafe for charging",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the iPad Pro's starting price be over or under $950?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over or equal",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

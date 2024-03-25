@@ -15,6 +15,10 @@
         "name": "Myke Wins",
         "description": "Drafts that Myke Hurley won"
     },
+    "tie": {
+        "name": "Tie",
+        "description": "Drafts without a tiebreaker that ended in a tie"
+    },
     "airpods": {
         "name": "AirPods",
         "description": "Predictions for events where new AirPods was announced"

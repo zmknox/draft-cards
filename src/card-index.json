@@ -3,6 +3,26 @@
     "banner": "...",
     "cards": [
         {
+            "name": "March 2024 iPad Draft",
+            "date": "March 2024",
+            "img": "/img/cards/apple032024.jpg",
+            "card": "apple032024",
+            "tags": [
+                "ipad",
+                "active"
+            ]
+        },
+        {
+            "name": "Upgrade Episode 600 Draft of the Ages",
+            "date": "February 2024",
+            "img": "/img/cards/upgradelogo.jpg",
+            "card": "upgrade500",
+            "tags": [
+                "ages",
+                "active"
+            ]
+        },
+        {
             "name": "Apple \"Scary fast.\" Event",
             "date": "October 2023",
             "img": "/img/cards/apple102023.jpg",
@@ -65,7 +85,7 @@
             "card": "upgrade400",
             "tags": [
                 "ages",
-                "active"
+                "tie"
             ]
         },
         {

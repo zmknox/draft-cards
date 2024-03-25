@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 400",
     "link": "https://relay.fm/upgrade/400",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -24,7 +24,7 @@
                 [
                     {
                         "pick": "An iMac larger than 24” will exist",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "An Apple Car will not exist",
@@ -44,7 +44,7 @@
                 [
                     {
                         "pick": "An iPad will have a display larger than 12.9 inches",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Two more Apple hardware products called \"Studio\"",
@@ -64,7 +64,7 @@
                 [
                     {
                         "pick": "An Apple Watch gets a new design",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "External display support for iPad won’t happen",
