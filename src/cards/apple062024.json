@@ -1,0 +1,165 @@
+{
+    "name": "The Upgrade WWDC24 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 515",
+    "link": "https://relay.fm/upgrade/515",
+    "finished": false,
+    "contested": false,
+    "topnote": "Special Rules: Each host must draft at least one pick from each of the following categories: AI, iOS, iPadOS, macOS, visionOS",
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell1.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke4.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "macOS: System Settings is redesigned in macOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AI: Siri becomes more conversational",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPadOS: Calculator app on iPadOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AI summaries of notifications and content",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "visionOS: New environments in visionOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iOS: Free placement of apps and widgets in iOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AI: Xcode gets AI features",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Siri can perform more actions inside of apps",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iOS: Users can change app icon colors in iOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AI-created “emoji”",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AI-powered tools for editing photos ",
+                        "correct": true
+                    },
+                    {
+                        "pick": "visionOS: Ability to rearrange apps in visionOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AI enhancements to the iWork apps",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple announces partnership with OpenAI for AI features",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AI powered transcription in Notes/Voice Memos",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Some AI features labeled as “Coming next year”",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Some iPhone AI features limited to the most recent Pro phones",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPadOS: Standby mode for iPadOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Topographic maps added to Maps in iOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "macOS: Redesigned Notification Center in macOS",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AI used for message composition in Mail",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AI improvements to Spotlight search",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "More information on CarPlay",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Multiple Mac displays in visionOS",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 1 hour 50 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over or equal",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

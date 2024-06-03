@@ -8,6 +8,7 @@ import Landing from './Landing.jsx';
 import AllCards from './AllCards.jsx';
 import Rules from './Rules.jsx';
 import CardPage from './CardPage.jsx';
+import TagComparePage from './TagComparePage.jsx';
 import TagPage from './TagPage.jsx';
 import TagLanding from './TagLanding.jsx';
 // import CardPagePrint from './CardPagePrint.jsx';
@@ -35,6 +36,7 @@ function App() {
           {/* <Route path='/print' component={CardPagePrint} /> */}
           <Route path='/card' component={CardPage} />
           <Route path='/cards' component={AllCards} />
+          <Route path='/compare' component={TagComparePage} />
           <Route path='/tag' component={TagPage} />
           <Route path='/tags' component={TagLanding} />
           <Route path='/rules' component={Rules} />

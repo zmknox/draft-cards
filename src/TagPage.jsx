@@ -5,7 +5,7 @@ import Tag from './Tag';
 class TagPage extends Component {
     render() {
         return (
-            <Route path={`${this.props.match.path}/:id`} render={props => (
+            <Route path={`${this.props.match.path}/:id/`} render={props => (
                 <Tag {...props} tag={props.match.params.id} />
             )} />
         );

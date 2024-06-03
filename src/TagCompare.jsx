@@ -5,12 +5,13 @@ import './Tag.css'
 import {default as cardIndex} from './card-index.json';
 import {default as tagIndex} from './tag-index.json';
 
-class Tag extends Component {
+class TagCompare extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            tag: props.tag
+            tag: props.tag,
+            compared: props.compared
         };
 
         this.renderCardLinks = this.renderCardLinks.bind(this);
@@ -19,7 +20,7 @@ class Tag extends Component {
     renderCardLinks() {
         let arr = [];
         for (let card of cardIndex.cards) {
-            if (card.tags.includes(this.state.tag)) {
+            if (card.tags.includes(this.state.tag) && card.tags.includes(this.state.compared)) {
                 arr.push(
                     <Col sm={6}>
                         <Link to={`/card/${card.card}`} >
@@ -41,11 +42,12 @@ class Tag extends Component {
 
     render() {
         const tagInfo = tagIndex[this.state.tag];
+        const comparedInfo = tagIndex[this.state.compared];
         return (
             <Container className='justify-content-center'>
-                <h6 className="Tag-Heading text-center">Scorecard Tag</h6>
-                <h1 className="Tag-Name text-center">{tagInfo.name}</h1>
-                <h3 className="Tag-Description text-center">{tagInfo.description}</h3>
+                <h6 className="Tag-Heading text-center">Scorecard Tags</h6>
+                <h1 className="Tag-Name text-center">{tagInfo.name} and {comparedInfo.name}</h1>
+                <h3 className="Tag-Description text-center">{tagInfo.description} and {comparedInfo.description}</h3>
                 <Row>
                     {this.renderCardLinks(this.props.tag)}
                 </Row>
@@ -55,4 +57,4 @@ class Tag extends Component {
     }
 }
 
-export default Tag;
+export default TagCompare;

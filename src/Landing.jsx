@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Badge, Card, CardColumns, Col, Container, Image, Row } from 'react-bootstrap';
+import { Badge, Card, Col, Container, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Landing.css'
 import cardIndex from './card-index.json';
@@ -57,7 +57,7 @@ class Landing extends Component {
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/cards/`}>⬅️ View All Scorecards</Link></h4>
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/tags/`}>📛 View By Tag</Link></h4>
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/rules/`}>📚 Upgrade Draft Rules</Link></h4>
-                <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">zmknox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2023 Relay FM, and are used with permission.</h6>
+                <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">zmknox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2024 Relay FM, and are used with permission.</h6>
             </Container>
         );
     }

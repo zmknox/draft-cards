@@ -371,6 +371,16 @@ export default class DraftCard extends Component {
                 <Container>
                     {this.renderButton()}
                     <br />
+                    {this.state.card.topnote !== undefined ?
+                        <>
+                            <br />
+                            <Row>
+                                <Col>
+                                    <h4 className="topnote-text text-center">{this.state.card.topnote}</h4>
+                                </Col>
+                            </Row>
+                        </> : ''
+                    }
                     <Row className="justify-content-center text-center">
                         <Col>
                             <h5>Select each entry to award points, or mark them wrong.</h5>
@@ -458,7 +468,7 @@ export default class DraftCard extends Component {
                             <br />
                             <Row>
                                 <Col>
-                                    <h4 className="text-center">{this.state.card.footnote}</h4>
+                                    <h4 className="footnote-text text-center">{this.state.card.footnote}</h4>
                                 </Col>
                             </Row>
                         </> : ''

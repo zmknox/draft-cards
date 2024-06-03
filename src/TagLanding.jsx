@@ -37,6 +37,7 @@ class TagLanding extends Component {
                 <Row>
                     {this.renderTagLinks()}
                 </Row>
+                <h3 className="Tag-Landing-Footer text-center">Want to compare two tags? Visit /compare/tag1/tag2!</h3>
             </Container>
         );
     }

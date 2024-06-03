@@ -1,0 +1,48 @@
+{
+  "name": "The California Bear Trophy 2024",
+  "preLinkText": "As heard on ",
+  "linkText": "Upgrade+ 515",
+  "link": "https://relay.fm/upgrade/515",
+  "finished": false,
+  "contested": false,
+  "topnote": "A separate but related game.",
+  "contestants": [
+    {
+      "name": "Jason",
+      "link": "https://zeppelin.flights/@jsnell",
+      "icon": "/img/avatars/snell1.jpg"
+    },
+    {
+      "name": "Myke",
+      "link": "https://myke.social/@imyke",
+      "icon": "/img/avatars/myke4.jpeg"
+    }
+  ],
+  "sections": [
+    {
+      "graded": true,
+      "entries": [
+        [
+          {
+            "pick": "macOS Napa",
+            "correct": true
+          },
+          {
+            "pick": "macOS Golden Gate",
+            "correct": true
+          }
+        ],
+        [
+          {
+            "pick": "macOS Santa Cruz",
+            "correct": true
+          },
+          {
+            "pick": "macOS Tahoe",
+            "correct": true
+          }
+        ]
+      ]
+    }
+  ]
+}

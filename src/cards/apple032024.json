@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 505",
     "link": "https://relay.fm/upgrade/505",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -44,7 +44,7 @@
                 [
                     {
                         "pick": "The base model iPad receives an update",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "iPad Air comes in current iPad Pro sizes",
@@ -54,7 +54,7 @@
                 [
                     {
                         "pick": "An iPad Pro case is offered in a color that isn’t essentially gray, white, or black",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "iPad Pro starts at a higher price",
@@ -94,11 +94,11 @@
                 [
                     {
                         "pick": "New Apple Pencil has an eraser",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "iPad Pro gets MagSafe for charging",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
