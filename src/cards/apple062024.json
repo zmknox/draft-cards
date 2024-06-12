@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 515",
     "link": "https://relay.fm/upgrade/515",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "topnote": "Special Rules: Each host must draft at least one pick from each of the following categories: AI, iOS, iPadOS, macOS, visionOS",
     "contestants": [
@@ -25,7 +25,7 @@
                 [
                     {
                         "pick": "macOS: System Settings is redesigned in macOS",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "AI: Siri becomes more conversational",
@@ -109,7 +109,7 @@
                     },
                     {
                         "pick": "iPadOS: Standby mode for iPadOS",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -119,7 +119,7 @@
                     },
                     {
                         "pick": "macOS: Redesigned Notification Center in macOS",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -135,11 +135,11 @@
                 [
                     {
                         "pick": "More information on CarPlay",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Multiple Mac displays in visionOS",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
