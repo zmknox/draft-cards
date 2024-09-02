@@ -1,0 +1,231 @@
+{
+    "name": "The Upgrade September 2024 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 527",
+    "link": "https://relay.fm/upgrade/527",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell1.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke5.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Faster A-series chip introduced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Pro phones get larger screens",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Capture button introduced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "5x optical zoom on both Pro phones",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Capture button has multiple functions (eg. press strength, swiping)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Ultrawide camera improvements",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Intelligence features given a date more specific than “this fall”",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Vertical camera lenses on iPhone 16 line",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Increased screen brightness",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple mentions RAM/memory increases for iPhone line",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Apple Watch picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "An Apple Watch gets a larger screen",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New watch face",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Watches are a new physical size",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Watch SE updated",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New AirPods (non-Pro/Max) introduced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Specific iOS/iPadOS release date set",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Specific macOS release date set",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New AirPods Max introduced",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple TV+ trailer/promo shown",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Vision Pro mentioned",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "St. Jude Challenge",
+            "link": "https://www.stjude.org/relay",
+            "graded": "wager",
+            "roundLabel": [
+                "Next-generation Siri",
+                "Emmy Awards",
+                "RAM / Memory (in referring to iPhone)",
+                "Google Gemini",
+                "Blowaway"
+            ],
+            "entries": [
+                [
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": false
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "4",
+                        "wager": 4,
+                        "correct": true
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    },
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "4",
+                        "wager": 4,
+                        "correct": false
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 81 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under or equal",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Over",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

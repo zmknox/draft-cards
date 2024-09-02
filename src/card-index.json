@@ -3,6 +3,15 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple \"It's Glowtime.\" Event",
+            "date": "September 2024",
+            "img": "/img/cards/apple092024.jpg",
+            "card": "apple092024",
+            "tags": [
+                "active"
+            ]
+        },
+        {
             "name": "Apple WWDC 2024 Keynote",
             "date": "June 2024",
             "img": "/img/cards/apple062024.jpg",
