@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 527",
     "link": "https://relay.fm/upgrade/527",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -55,7 +55,7 @@
                 [
                     {
                         "pick": "Apple Intelligence features given a date more specific than “this fall”",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Vertical camera lenses on iPhone 16 line",
@@ -65,11 +65,11 @@
                 [
                     {
                         "pick": "Increased screen brightness",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Apple mentions RAM/memory increases for iPhone line",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -85,7 +85,7 @@
                     },
                     {
                         "pick": "New watch face",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -95,7 +95,7 @@
                     },
                     {
                         "pick": "Apple Watch SE updated",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -111,7 +111,7 @@
                     },
                     {
                         "pick": "Specific iOS/iPadOS release date set",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -121,7 +121,7 @@
                     },
                     {
                         "pick": "New AirPods Max introduced",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -164,23 +164,11 @@
                     {
                         "pick": "4",
                         "wager": 4,
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "2",
                         "wager": 2,
-                        "correct": true
-                    }
-                ],
-                [
-                    {
-                        "pick": "0",
-                        "wager": 0,
-                        "correct": false
-                    },
-                    {
-                        "pick": "3",
-                        "wager": 3,
                         "correct": false
                     }
                 ],
@@ -194,6 +182,18 @@
                         "pick": "3",
                         "wager": 3,
                         "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": false
                     }
                 ],
                 [
@@ -218,11 +218,11 @@
                 [
                     {
                         "pick": "Under or equal",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Over",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
