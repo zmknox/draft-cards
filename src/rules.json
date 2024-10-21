@@ -1,12 +1,12 @@
 {
     "title": "Upgrade Draft Rules",
-    "lastUpdated": "September 2021",
+    "lastUpdated": "October 2024",
     "rules": [
         "Each round contains a pick for each host",
         "The winner of the previous draft gets to pick first",
         "Items picked are chosen from a predetermined list of choices, agreed to be both verifiable on screen and not ridiculously obvious",
-        "For a pick to count, it must be either clearly announced on stage or on screen during the presentation",
-        "While scoring amongst the hosts is preferred, Stephen Hackett will adjudicate in cases of scoring stalemates between hosts",
+        "For a pick to count, it must be either clearly announced on stage or on screen during the presentation. If the announcements come via press release, the announcements must be clearly viewable on Apple's website",
+        "While scoring amongst the hosts is preferred, Stephen Hackett will adjudicate in cases of scoring stalemates between hosts. If Stephen is on sabbatical, zmknox (of upgrade.cards) will adjudicate",
         "No partial points are awarded",
         "Points awarded are finalized during the scoring segment of the related Upgrade podcast episode, and thereafter may not be changed",
         "In case of a tie, there is a tiebreaker question",
