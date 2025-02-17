@@ -1,15 +1,15 @@
 {
-    "name": "The Upgrade 2024 October Event? Draft",
+    "name": "The Upgrade Paternity Draft",
     "preLinkText": "As heard on ",
-    "linkText": "Upgrade 534",
-    "link": "https://relay.fm/upgrade/534",
-    "finished": true,
+    "linkText": "Upgrade 551",
+    "link": "https://relay.fm/upgrade/551",
+    "finished": false,
     "contested": false,
     "contestants": [
         {
             "name": "Jason",
             "link": "https://zeppelin.flights/@jsnell",
-            "icon": "/img/avatars/snell1.jpg"
+            "icon": "/img/avatars/snell2.jpg"
         },
         {
             "name": "Myke",
@@ -23,88 +23,88 @@
             "entries": [
                 [
                     {
-                        "pick": "New Mac mini is smaller than ever",
+                        "pick": "There is a controversy about the speeds/capabilities of an Apple-built modem",
                         "correct": true
                     },
                     {
-                        "pick": "Mac mini has a new industrial design",
+                        "pick": "Low-end iPhone has a notch",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "New MacBook Pros introduced",
+                        "pick": "Base price of M4 MacBook Air is $1099",
                         "correct": true
                     },
                     {
-                        "pick": "New Mac mini comes with M4 and M4 Pro configurations",
-                        "correct": true
-                    }
-                ],
-                [
-                    {
-                        "pick": "New iMac introduced",
-                        "correct": true
-                    },
-                    {
-                        "pick": "Apple Intelligence demo",
-                        "correct": true
-                    }
-                ],
-                [
-                    {
-                        "pick": "Mac mini starting price remains unchanged",
-                        "correct": true
-                    },
-                    {
-                        "pick": "New Mac mini removes all USB-A ports",
-                        "correct": true
-                    }
-                ],
-                [
-                    {
-                        "pick": "Some M4 Pro/Max models ship later than base M4 models",
-                        "correct": false
-                    },
-                    {
-                        "pick": "Release date given for first Apple Intelligence features",
+                        "pick": "A new Apple-built home device is introduced",
                         "correct": false
                     }
                 ],
                 [
                     {
-                        "pick": "Space Black comes to the base model MacBook Pro",
+                        "pick": "AirTag 2 introduced",
                         "correct": true
                     },
                     {
-                        "pick": "A Mac mini has some ports on the front",
+                        "pick": "M4 MacBook Air has upgraded webcam",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Same color (names) for M4 MacBook Air",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iPad Air gets an M3 or M4 chip",
                         "correct": true
                     }
                 ],
                 [
                     {
-                        "pick": "New iMac comes in same colors as before",
+                        "pick": "Low-end iPhone is not called “iPhone SE”",
                         "correct": false
                     },
                     {
-                        "pick": "At least one Mac mini config doesn’t have Ethernet",
+                        "pick": "Apple doesn't ship improved Siri and personal context to customers",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New base-model iPad announced supporting Apple Intelligence",
+                        "correct": false
+                    },
+                    {
+                        "pick": "New home device has Apple Intelligence",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Low-end iPhone has an Action Button",
+                        "correct": false
+                    },
+                    {
+                        "pick": "M2 MacBook Air remains in the lineup",
                         "correct": false
                     }
                 ]
             ]
         },
         {
-            "name": "Tiebreaker: Will the announcement be an event or a Newsroom post?",
+            "name": "Tiebreaker: Will over or under 850 minutes of Upgrade be released during Myke's paternity leave?",
             "graded": false,
             "roundLabel": "Tie?",
             "entries": [
                 [
                     {
-                        "pick": "Event",
+                        "pick": "Under or equal",
                         "correct": false
                     },
                     {
-                        "pick": "Newsroom",
+                        "pick": "Over",
                         "correct": true
                     }
                 ]

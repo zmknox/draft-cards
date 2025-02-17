@@ -7,6 +7,10 @@
         "name": "Drafts of the Ages",
         "description": "Predictions for the world as it will be 100 episodes later"
     },
+    "special": {
+        "name": "Special",
+        "description": "Drafts done as part of a special occasion"
+    },
     "jason": {
         "name": "Jason Wins",
         "description": "Drafts that Jason Snell won"

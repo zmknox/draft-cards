@@ -3,12 +3,23 @@
     "banner": "...",
     "cards": [
         {
+            "name": "The Paternity Draft",
+            "date": "February 2025",
+            "img": "/img/cards/upgradelogo24.jpg",
+            "card": "upgradeBaby",
+            "tags": [
+                "active",
+                "special"
+            ]
+        },
+        {
             "name": "Upgrade 2024 October Event? Draft",
             "date": "October 2024",
             "img": "/img/cards/upgradelogo24.jpg",
             "card": "apple102024",
             "tags": [
-                "active"
+                "mac",
+                "myke"
             ]
         },
         {
@@ -17,7 +28,10 @@
             "img": "/img/cards/apple092024.jpg",
             "card": "apple092024",
             "tags": [
-                "active"
+                "iphone",
+                "apple-watch",
+                "airpods",
+                "myke"
             ]
         },
         {
