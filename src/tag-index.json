@@ -47,6 +47,10 @@
         "name": "iPhone",
         "description": "Predictions for events where a new iPhone was announced"
     },
+    "mac": {
+        "name": "Mac",
+        "description": "Predictions for events where a new Mac was announced"
+    },
     "spring": {
         "name": "Spring event",
         "description": "Predictions for events from the spring"

@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 551",
     "link": "https://relay.fm/upgrade/551",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -24,7 +24,7 @@
                 [
                     {
                         "pick": "There is a controversy about the speeds/capabilities of an Apple-built modem",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Low-end iPhone has a notch",
@@ -34,7 +34,7 @@
                 [
                     {
                         "pick": "Base price of M4 MacBook Air is $1099",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "A new Apple-built home device is introduced",
@@ -44,11 +44,11 @@
                 [
                     {
                         "pick": "AirTag 2 introduced",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "M4 MacBook Air has upgraded webcam",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -64,11 +64,11 @@
                 [
                     {
                         "pick": "Low-end iPhone is not called “iPhone SE”",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Apple doesn't ship improved Siri and personal context to customers",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -84,7 +84,7 @@
                 [
                     {
                         "pick": "Low-end iPhone has an Action Button",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "M2 MacBook Air remains in the lineup",

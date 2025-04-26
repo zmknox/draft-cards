@@ -57,7 +57,7 @@ class Landing extends Component {
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/cards/`}>⬅️ View All Scorecards</Link></h4>
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/tags/`}>📛 View By Tag</Link></h4>
                 <h4 className="Home-Bottom-Link text-center"><Link to={`/rules/`}>📚 Upgrade Draft Rules</Link></h4>
-                <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">zmknox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2025 Relay, and are used with permission.</h6>
+                <h6 className="Home-Footer text-center">upgrade.cards is created and run by <a href="https://zmknox.com/">Zoe Knox</a>. You can find this project's code <a href="https://github.com/zmknox/draft-cards">on GitHub</a>. Some content and images are Copyright © 2014-2025 Relay, and are used with permission.</h6>
             </Container>
         );
     }
