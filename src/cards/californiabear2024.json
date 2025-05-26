@@ -5,7 +5,18 @@
   "link": "https://relay.fm/upgrade/515",
   "finished": false,
   "contested": false,
-  "topnote": "A separate but related game.",
+  "topnote": [
+    {
+      "text": "A separate but related game."
+    },
+    {
+      "text": "See Also, a",
+      "link": {
+          "name": "dedicated site to track this game",
+          "url": "https://californiabeartrophy.com"
+      }
+    }
+  ],
   "contestants": [
     {
       "name": "Jason",

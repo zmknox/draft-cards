@@ -5,7 +5,18 @@
     "link": "https://relay.fm/upgrade/515",
     "finished": true,
     "contested": false,
-    "topnote": "Special Rules: Each host must draft at least one pick from each of the following categories: AI, iOS, iPadOS, macOS, visionOS",
+    "topnote": [
+        {
+            "text": "Special Rules: Each host must draft at least one pick from each of the following categories: AI, iOS, iPadOS, macOS, visionOS."
+        },
+        {
+            "text": "See Also, a separate but related game: the",
+            "link": {
+                "name": "California Bear Trophy",
+                "url": "https://californiabeartrophy.com"
+            }
+        }
+    ],
     "contestants": [
         {
             "name": "Jason",

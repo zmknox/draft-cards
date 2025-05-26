@@ -372,14 +372,20 @@ export default class DraftCard extends Component {
                     {this.renderButton()}
                     <br />
                     {this.state.card.topnote !== undefined ?
-                        <>
-                            <br />
-                            <Row>
-                                <Col>
-                                    <h4 className="topnote-text text-center">{this.state.card.topnote}</h4>
-                                </Col>
-                            </Row>
-                        </> : ''
+                        this.state.card.topnote.map((topnote) => {
+                            return <>
+                                <br />
+                                <Row>
+                                    <Col>   
+                                        {topnote.link !== undefined ? 
+                                            <h4 className="topnote-text text-center">{topnote.text} <a className="footer-url" href={topnote.link.url}>{topnote.link.name}.</a></h4>
+                                            : <h4 className="topnote-text text-center">{topnote.text}</h4>
+                                        }
+                                    </Col>
+                                </Row>
+                            </>
+                        })
+                         : ''
                     }
                     <Row className="justify-content-center text-center">
                         <Col>
@@ -481,7 +487,7 @@ export default class DraftCard extends Component {
                     <br />
                     <Row>
                         <Col>
-                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://snailedit.social/@zmk">zmknox</a>.</h5>
+                            <h5 className="text-center">Content based on <a id="footer-url" href={this.state.card.link}>{this.state.card.linkText}</a>. Interactive scorecard by <a href="https://snailedit.social/@zmk">Zoe Knox</a>.</h5>
                         </Col>
                     </Row>
                 </Container>

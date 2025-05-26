@@ -20,4 +20,4 @@ This project's content is based on the [Upgrade podcast from Relay FM](https://r
 
 ## Authors
 
-@zmknox [https://zmknox.com/](https://zmknox.com/)
+Zoe Knox [https://zmknox.com/](https://zmknox.com/)
