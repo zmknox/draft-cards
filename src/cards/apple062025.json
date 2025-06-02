@@ -1,0 +1,196 @@
+{
+    "name": "The Upgrade WWDC25 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 566",
+    "link": "https://relay.fm/upgrade/566",
+    "finished": false,
+    "contested": false,
+    "topnote": [
+        {
+            "text": "Special Rules: Each host must draft at least one pick from each of the following categories: AI, Redesign, iOS, iPadOS, visionOS."
+        },
+        {
+            "text": "See Also: the",
+            "link": {
+                "name": "Post-Draft Draft",
+                "url": "/card/apple062025plus"
+            }
+        }
+    ],
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell2.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke5.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New design features differently shaped icons (Redesign)",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple renames the OSes to a calendar year",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AI based power/battery management feature (iOS)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New design sees floating tab bars in iPhone apps (Redesign)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "visionOS scrolling controlled by your eyes (visionOS)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Developers get to use Apple’s AI models in their apps (AI)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "A new Apple Pencil-related feature is announced (iPadOS)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPad Desktop mode with Menu Bar, more Mac-like design (iPadOS)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "AirPods live translate announced (AI)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple announces partnership with Google for AI features",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple explicitly acknowledges falling short in its AI promises",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AI coaching feature touted in Health or Fitness app",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Captive Wi-Fi sync added",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New features for Genmoji (AI)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Image Playgrounds updated to create much improved images",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New way to customize lock screen design in iOS (iOS)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "At least one new first party visionOS app shown that was previously just an iPad app",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple announces partnership with AI provider other than Google or OpenAI",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "App Intents mentioned",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New hand gestures for controlling visionOS (visionOS)",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Tim plugs Apple TV+",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New design takes color cues from your wallpaper while in apps",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "A game developer is heard from",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Shortcuts can be created with AI assistance",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New app focused on games is called Apple Games",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iPad windows can be moved around freely",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "An AI company (Google, OpenAI, etc.) representative is heard from",
+                        "correct": false
+                    },
+                    {
+                        "pick": "visionOS support for VR hand controllers",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 1 hour 46 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Over or equal",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Under",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

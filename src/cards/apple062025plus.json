@@ -1,0 +1,62 @@
+{
+    "name": "The Upgrade+ WWDC25 Event Post-Draft Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade+ 566",
+    "link": "https://relay.fm/upgrade/566",
+    "finished": false,
+    "contested": false,
+    "topnote": [
+        {
+            "text": "Special Rules: Each host must draft at least one pick from the Meta/Stagecraft category."
+        }
+    ],
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell2.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke5.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "At least one reference/joke about an Apple show/movie is made outside of any F1/TV+ segment",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Phrase “Hair Force One” appears somewhere in the video",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Global keyboard commands for Shortcuts on iPadOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Stage Manager for iPhone/Support for external display + input devices",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Improvements to Shortcuts on macOS",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New developer terms sometime before the end of WWDC keynote",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

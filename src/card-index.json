@@ -3,6 +3,16 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple WWDC 2025 Keynote",
+            "date": "June 2025",
+            "img": "/img/cards/apple062025.jpg",
+            "card": "apple062025",
+            "tags": [
+                "wwdc",
+                "active"
+            ]
+        },
+        {
             "name": "The Paternity Draft",
             "date": "February 2025",
             "img": "/img/cards/upgradelogo24.jpg",
@@ -17,7 +27,7 @@
         {
             "name": "Upgrade 2024 October Event? Draft",
             "date": "October 2024",
-            "img": "/img/cards/upgradelogo24.jpg",
+            "img": "/img/cards/apple102024.jpg",
             "card": "apple102024",
             "tags": [
                 "mac",
