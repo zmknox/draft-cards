@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade+ 566",
     "link": "https://relay.fm/upgrade/566",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "topnote": [
         {
@@ -29,7 +29,7 @@
                 [
                     {
                         "pick": "At least one reference/joke about an Apple show/movie is made outside of any F1/TV+ segment",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Phrase “Hair Force One” appears somewhere in the video",
@@ -39,11 +39,11 @@
                 [
                     {
                         "pick": "Global keyboard commands for Shortcuts on iPadOS",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Stage Manager for iPhone/Support for external display + input devices",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -53,7 +53,7 @@
                     },
                     {
                         "pick": "New developer terms sometime before the end of WWDC keynote",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]

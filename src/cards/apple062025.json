@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 566",
     "link": "https://relay.fm/upgrade/566",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "topnote": [
         {
@@ -46,7 +46,7 @@
                 [
                     {
                         "pick": "AI based power/battery management feature (iOS)",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New design sees floating tab bars in iPhone apps (Redesign)",
@@ -76,11 +76,11 @@
                 [
                     {
                         "pick": "AirPods live translate announced (AI)",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Apple announces partnership with Google for AI features",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -90,13 +90,13 @@
                     },
                     {
                         "pick": "AI coaching feature touted in Health or Fitness app",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Captive Wi-Fi sync added",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New features for Genmoji (AI)",
@@ -110,13 +110,13 @@
                     },
                     {
                         "pick": "New way to customize lock screen design in iOS (iOS)",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "At least one new first party visionOS app shown that was previously just an iPad app",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Apple announces partnership with AI provider other than Google or OpenAI",
@@ -140,7 +140,7 @@
                     },
                     {
                         "pick": "New design takes color cues from your wallpaper while in apps",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -156,11 +156,11 @@
                 [
                     {
                         "pick": "New app focused on games is called Apple Games",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "iPad windows can be moved around freely",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -170,7 +170,7 @@
                     },
                     {
                         "pick": "visionOS support for VR hand controllers",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
