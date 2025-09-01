@@ -1,0 +1,302 @@
+{
+    "name": "The Upgrade September 2025 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 579",
+    "link": "https://relay.fm/upgrade/579",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell2.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke5.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "An Apple ‘C’ modem is in another phone",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone Pro models feature aluminum on the back, not just glass",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple introduces a replacement for FineWoven cases",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone Air has a single camera on the back",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone Air is the thinnest iPhone ever but not as thin as the iPad Pro",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone cases feature lanyard attachments",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": " The Apple logo on an iPhone is shifted",
+                        "correct": true
+                    },
+                    {
+                        "pick": "The iPhone Pro Max has an increased zoom on the tetraprism lens",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Apple Watch picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Apple Watch Ultra 3 gains communication via satellite",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple introduces a feature that scores your sleep or vitals",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Watch Ultra 3 gets a new chip",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple Watch Ultra 3 gets a bigger screen",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "AirPods Pro 3 include some health monitoring sensor(s)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "AirPods Pro 3 have a new design",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "AirPods Pro 3 have improved noise cancelling",
+                        "correct": false
+                    },
+                    {
+                        "pick": "AirPods improved audio quality as a microphone is mentioned",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Wildcard picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "iPhone Air base price is greater than or equal to the iPhone Pro base price",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone Air has an always-on display",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "No new health sensor on Apple Watch",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Dual camera recording on the iPhone Pro",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "St. Jude Challenge",
+            "link": "https://www.stjude.org/relay",
+            "graded": "wager",
+            "roundLabel": [
+                "As light as air",
+                "Edge to edge",
+                "Thinnest iPhone ever",
+                "Most advanced camera ever",
+                "Aerospace-grade aluminum",
+                "You’ll forget it’s in your pocket",
+                "World’s most popular headphones",
+                "Gorgeous colors",
+                "Two-tone",
+                "One more thing"
+            ],
+            "entries": [
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "4",
+                        "wager": 4,
+                        "correct": false
+                    },
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "4",
+                        "wager": 4,
+                        "correct": false
+                    },
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": false
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 94 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under or equal",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Over",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

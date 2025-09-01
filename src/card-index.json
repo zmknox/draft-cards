@@ -3,6 +3,15 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple \"Awe dropping.\" Event",
+            "date": "September 2025",
+            "img": "/img/cards/apple092025.jpg",
+            "card": "apple092025",
+            "tags": [
+                "active"
+            ]
+        },
+        {
             "name": "Apple WWDC 2025 Keynote",
             "date": "June 2025",
             "img": "/img/cards/apple062025.jpg",
