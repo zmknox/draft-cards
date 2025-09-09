@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 579",
     "link": "https://relay.fm/upgrade/579",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -81,11 +81,11 @@
                 [
                     {
                         "pick": "Apple Watch Ultra 3 gets a new chip",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Apple Watch Ultra 3 gets a bigger screen",
-                        "correct": false
+                        "correct": true
                     }
                 ]
             ]
@@ -101,17 +101,17 @@
                     },
                     {
                         "pick": "AirPods Pro 3 have a new design",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "AirPods Pro 3 have improved noise cancelling",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "AirPods improved audio quality as a microphone is mentioned",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -123,21 +123,21 @@
                 [
                     {
                         "pick": "iPhone Air base price is greater than or equal to the iPhone Pro base price",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "iPhone Air has an always-on display",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "No new health sensor on Apple Watch",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Dual camera recording on the iPhone Pro",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -187,12 +187,12 @@
                     {
                         "pick": "4",
                         "wager": 4,
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "3",
                         "wager": 3,
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -211,12 +211,12 @@
                     {
                         "pick": "0",
                         "wager": 0,
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "1",
                         "wager": 1,
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -235,24 +235,24 @@
                     {
                         "pick": "0",
                         "wager": 0,
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "1",
                         "wager": 1,
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "0",
                         "wager": 0,
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "0",
                         "wager": 0,
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -289,11 +289,11 @@
                 [
                     {
                         "pick": "Under or equal",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Over",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
