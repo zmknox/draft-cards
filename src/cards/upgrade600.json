@@ -1,0 +1,117 @@
+{
+    "name": "The Upgrade Episode 700 Draft of the Ages",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 600",
+    "link": "https://relay.fm/upgrade/600",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell1.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke4.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "John Ternus is the CEO of Apple",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple has a new CEO",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple ships a new smart home product",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple has released a set of smart glasses",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple releases a new or updated standalone display",
+                        "correct": true
+                    },
+                    {
+                        "pick": "There is no non-Pro version of the Vision Pro",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "There's a cellular MacBook",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Siri is considered to actually be useful and capable, and we use it as a part of our daily workflow",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple TV hardware is updated",
+                        "correct": false
+                    },
+                    {
+                        "pick": "We consider the touchscreen MacBook Pro to be a success",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "General perception is that Apple software design is headed in the right direction",
+                        "correct": false
+                    },
+                    {
+                        "pick": "The Liquid Glass design language is still in effect",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "An Ultra chip beyond the M3 Ultra has been released",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Camera control remains on the iPhone, but loses the swiping",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Eddy Cue still works at Apple",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iCloud+ customers get some kind of different experience with Apple Intelligence",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Amazingly, there is an AirPods Max update",
+                        "correct": false
+                    },
+                    {
+                        "pick": "The Apple Watch has a brand-new health sensor",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

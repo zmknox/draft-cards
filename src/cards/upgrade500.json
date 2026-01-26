@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 500",
     "link": "https://relay.fm/upgrade/500",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -34,17 +34,17 @@
                 [
                     {
                         "pick": "At least one Apple Watch no longer fits the classic watch bands",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Revised Apple Vision Pro hardware",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "Apple Card or Apple Cash expanded to at least one more country",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "An Apple Watch gets a glucose monitor",
@@ -68,7 +68,7 @@
                     },
                     {
                         "pick": "Apple TV+ adds another sport",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [

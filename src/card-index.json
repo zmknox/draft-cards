@@ -3,6 +3,16 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Upgrade Episode 700 Draft of the Ages",
+            "date": "January 2026",
+            "img": "/img/cards/upgradelogo24.jpg",
+            "card": "upgrade600",
+            "tags": [
+                "ages",
+                "active"
+            ]
+        },
+        {
             "name": "Apple \"Awe dropping.\" Event",
             "date": "September 2025",
             "img": "/img/cards/apple092025.jpg",
@@ -86,7 +96,7 @@
             "card": "upgrade500",
             "tags": [
                 "ages",
-                "active"
+                "myke"
             ]
         },
         {
