@@ -3,6 +3,16 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Special Apple Experience",
+            "date": "March 2026",
+            "img": "/img/cards/apple032026.jpg",
+            "card": "apple032026",
+            "tags": [
+                "spring",
+                "active"
+            ]
+        },
+        {
             "name": "Upgrade Episode 700 Draft of the Ages",
             "date": "January 2026",
             "img": "/img/cards/upgradelogo24.jpg",

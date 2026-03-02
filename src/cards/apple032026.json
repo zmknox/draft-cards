@@ -1,0 +1,104 @@
+{
+    "name": "The Upgrade March 2025 Experience Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 605",
+    "link": "https://relay.fm/upgrade/605",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell2.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke5.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "New laptop is named MacBook",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New base iPad supports Apple Intelligence",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New laptop has a screen smaller than 13 inches",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New laptop comes in at least four color options",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New laptop comes with more than 8GB of RAM",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New laptop is wedge shaped",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "The Mac Pro does not get an update",
+                        "correct": true
+                    },
+                    {
+                        "pick": "RAM prices on the MacBook Pro are the same",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New laptop does not have Thunderbolt",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New base iPad comes in a new color",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New laptop does not have MagSafe",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New laptop has MagSafe",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the new laptop be over/under $650?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under or equal",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Over",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
