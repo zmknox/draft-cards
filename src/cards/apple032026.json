@@ -1,9 +1,9 @@
 {
-    "name": "The Upgrade March 2025 Experience Draft",
+    "name": "The Upgrade March 2026 Experience Draft",
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 605",
     "link": "https://relay.fm/upgrade/605",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "contestants": [
         {
@@ -24,17 +24,17 @@
                 [
                     {
                         "pick": "New laptop is named MacBook",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New base iPad supports Apple Intelligence",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "New laptop has a screen smaller than 13 inches",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New laptop comes in at least four color options",
@@ -44,11 +44,11 @@
                 [
                     {
                         "pick": "New laptop comes with more than 8GB of RAM",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "New laptop is wedge shaped",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -68,7 +68,7 @@
                     },
                     {
                         "pick": "New base iPad comes in a new color",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -78,7 +78,7 @@
                     },
                     {
                         "pick": "New laptop has MagSafe",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
