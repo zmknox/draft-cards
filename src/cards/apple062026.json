@@ -1,0 +1,196 @@
+{
+    "name": "The Upgrade WWDC26 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 618",
+    "link": "https://relay.fm/upgrade/618",
+    "finished": false,
+    "contested": false,
+    "topnote": [
+        {
+            "text": "Special Rules: Each host must draft at least one pick from each of the following categories: iOS, iPadOS, macOS, Siri/Apple Intelligence"
+        },
+        {
+            "text": "See also: the",
+            "link": {
+                "name": "California Bear Trophy",
+                "url": "https://californiabeartrophy.com"
+            }
+        }
+    ],
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell2.jpg"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke5.jpeg"
+        }
+    ],
+    "sections": [
+        {
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "The Photos app gets new AI editing tools (extend, reframe, etc.)",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Siri gets a new chatbot-style interface (Siri/AI)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "More third party AI support in the OS, not just OpenAI (Siri/AI)",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Siri interactions move to the Dynamic Island (iOS)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Shortcuts gains support for Apple Intelligence-powered creation",
+                        "correct": true
+                    },
+                    {
+                        "pick": "The Camera app gets customizable UI",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Specific acknowledgement of Mac as a popular platform for AI agents (Mac)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Spotlight improvements for iPadOS to be more Mac-like (iPad)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "The Camera app gains an AI mode (iOS)",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Apple Intelligence grammar checking in Writing Tools",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple’s Image Playgrounds get quality updates",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Siri remembers your context so you can have a real back-and-forth conversations",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Intelligence wallpaper creator",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Improved Genmoji quality",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "At least one feature is labeled as coming later in the year",
+                        "correct": true
+                    },
+                    {
+                        "pick": "No features are labeled as coming later in the year",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "No new hardware announcements",
+                        "correct": false
+                    },
+                    {
+                        "pick": "John Ternus appears",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Mike Rockwell appears",
+                        "correct": true
+                    },
+                    {
+                        "pick": "We do not see a return of all the AI features promised at WWDC24",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "The Finder mascot character appears",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Significant/noticeable improvements to Liquid Glass on macOS (macOS)",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "visionOS mentioned in passing, no specific features",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Someone says ‘Agentic’",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Siri can handle multiple requests at once",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Developers get access to more powerful on-device models",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Clipboard history added to iPadOS",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Expansion of satellite features to new parts of the OS",
+                        "correct": true
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 1 hour 45 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Over or equal",
+                        "correct": true
+                    }
+                ]
+            ]
+        }
+    ]
+}

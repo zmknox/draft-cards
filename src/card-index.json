@@ -3,6 +3,16 @@
     "banner": "...",
     "cards": [
         {
+            "name": "Apple WWDC 2026 Keynote",
+            "date": "June 2026",
+            "img": "/img/cards/apple062026.jpg",
+            "card": "apple062026",
+            "tags": [
+                "wwdc",
+                "active"
+            ]
+        },
+        {
             "name": "Special Apple Experience",
             "date": "March 2026",
             "img": "/img/cards/apple032026.jpg",

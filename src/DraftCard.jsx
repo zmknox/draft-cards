@@ -378,7 +378,7 @@ export default class DraftCard extends Component {
                                 <Row>
                                     <Col>   
                                         {topnote.link !== undefined ? 
-                                            <h4 className="topnote-text text-center">{topnote.text} <a className="footer-url" href={topnote.link.url}>{topnote.link.name}.</a></h4>
+                                            <h4 className="topnote-text text-center">{topnote.text} <a className="footer-url" href={topnote.link.url}>{topnote.link.name}</a></h4>
                                             : <h4 className="topnote-text text-center">{topnote.text}</h4>
                                         }
                                     </Col>
@@ -389,7 +389,7 @@ export default class DraftCard extends Component {
                     }
                     <Row className="justify-content-center text-center">
                         <Col>
-                            <h5>Select each entry to award points, or mark them wrong.</h5>
+                            <h5>Select each pick to award points (or mark them wrong)</h5>
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
