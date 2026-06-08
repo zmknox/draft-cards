@@ -3,7 +3,7 @@
     "preLinkText": "As heard on ",
     "linkText": "Upgrade 618",
     "link": "https://relay.fm/upgrade/618",
-    "finished": false,
+    "finished": true,
     "contested": false,
     "topnote": [
         {
@@ -36,7 +36,7 @@
                 [
                     {
                         "pick": "The Photos app gets new AI editing tools (extend, reframe, etc.)",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Siri gets a new chatbot-style interface (Siri/AI)",
@@ -60,27 +60,27 @@
                     },
                     {
                         "pick": "The Camera app gets customizable UI",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "Specific acknowledgement of Mac as a popular platform for AI agents (Mac)",
-                        "correct": true
+                        "correct": false
                     },
                     {
                         "pick": "Spotlight improvements for iPadOS to be more Mac-like (iPad)",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
                     {
                         "pick": "The Camera app gains an AI mode (iOS)",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Apple Intelligence grammar checking in Writing Tools",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -90,17 +90,17 @@
                     },
                     {
                         "pick": "Siri remembers your context so you can have a real back-and-forth conversations",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
                     {
                         "pick": "Apple Intelligence wallpaper creator",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Improved Genmoji quality",
-                        "correct": true
+                        "correct": false
                     }
                 ],
                 [
@@ -116,7 +116,7 @@
                 [
                     {
                         "pick": "No new hardware announcements",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "John Ternus appears",
@@ -130,7 +130,7 @@
                     },
                     {
                         "pick": "We do not see a return of all the AI features promised at WWDC24",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -140,7 +140,7 @@
                     },
                     {
                         "pick": "Significant / noticeable improvements to Liquid Glass on macOS (macOS)",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -150,7 +150,7 @@
                     },
                     {
                         "pick": "Someone says ‘Agentic’",
-                        "correct": false
+                        "correct": true
                     }
                 ],
                 [
@@ -170,7 +170,7 @@
                     },
                     {
                         "pick": "Expansion of satellite features to new parts of the OS",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
@@ -183,11 +183,11 @@
                 [
                     {
                         "pick": "Under",
-                        "correct": false
+                        "correct": true
                     },
                     {
                         "pick": "Over or equal",
-                        "correct": true
+                        "correct": false
                     }
                 ]
             ]
