@@ -114,7 +114,7 @@ export default class DraftCard extends Component {
         this.setState(newState);
     }
 
-    handleSelection(sectionIndex, entryIndex, cellIndex, graded, wager) {
+    handleSelection(sectionIndex, entryIndex, cellIndex, graded, wager, pointValue) {
         const currentState = this.state.sections[sectionIndex][entryIndex][cellIndex];
         let newState;
         let totals = this.state.totals;
@@ -128,22 +128,30 @@ export default class DraftCard extends Component {
 
         switch (graded) {
             case 'wager':
+            case 'wagerLiteral':
                 let newSectionData = this.updateWagerEntry(sectionIndex, entryIndex);
                 sections = newSectionData.sections;
                 sectionScores = newSectionData.sectionScores;
-                sectionTotals = this.calculateWagerSectionWinner(sectionIndex, sectionScores);
+                if (graded === 'wagerLiteral') {
+                    // for wagerLiteral, we don't calculate a winner, just update the scores
+                    sectionTotals[sectionIndex] = sectionScores[sectionIndex];
+                } else {
+                    sectionTotals = this.calculateWagerSectionWinner(sectionIndex, sectionScores);
+                }
+                
                 break;
             case true:
+                const earnedValue = pointValue ?? 1;
                 switch (currentState) {
                     case 'undecided':
                         newState = 'correct';
-                        sectionTotals[sectionIndex][contestantIndex] += 1;
-                        totals[cellIndex] += 1;
+                        sectionTotals[sectionIndex][contestantIndex] += earnedValue;
+                        totals[cellIndex] += earnedValue;
                         break;
                     case 'correct':
                         newState = 'wrong';
-                        sectionTotals[sectionIndex][contestantIndex] -= 1;
-                        totals[cellIndex] -= 1;
+                        sectionTotals[sectionIndex][contestantIndex] -= earnedValue;
+                        totals[cellIndex] -= earnedValue;
                         break;
                     case 'wrong':
                         newState = 'undecided';
@@ -225,10 +233,10 @@ export default class DraftCard extends Component {
         let foundNonZero = false; // if everyone is zero, nobody gets points
         for(let contestantIndex in sectionScores[sectionIndex]) {
             totals.push(0)
-            if (highest == undefined || sectionScores[sectionIndex][contestantIndex] > highest) {
+            if (highest === undefined || sectionScores[sectionIndex][contestantIndex] > highest) {
                 highest = sectionScores[sectionIndex][contestantIndex];
                 highestIndex = [contestantIndex];
-            } else if (sectionScores[sectionIndex][contestantIndex] == highest) {
+            } else if (sectionScores[sectionIndex][contestantIndex] === highest) {
                 highestIndex.push(contestantIndex);
             }
             if (sectionScores[sectionIndex][contestantIndex] !== 0) {
@@ -252,17 +260,16 @@ export default class DraftCard extends Component {
                 let section = this.state.card.sections[sectionIndex];
                 for (let entryIndex in section.entries) {
                     const entry = section.entries[entryIndex];
-                    let cells = [];
                     let index = 0; // yes this is dumb
                     for (let pick of entry) {
                         if (index === 0 || section.graded !== 'wager') {
                             if (pick.correct) {
-                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager, section.pointValue);
                             } else {
                                 // incorrect is just pushing up the state machine twice
                                 // undecided -> correct -> wrong
-                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
-                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager);
+                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager, section.pointValue);
+                                this.handleSelection(sectionIndex, entryIndex, index, section.graded, pick.wager, section.pointValue);
                             }
                         }
                         index += 1;
@@ -272,7 +279,7 @@ export default class DraftCard extends Component {
         });
     }
 
-    makeCell(pick, sectionIndex, entryIndex, cellIndex, graded) {
+    makeCell(pick, sectionIndex, entryIndex, cellIndex, graded, pointValue) {
         let cellState = 'white-cell';
         if (this.state.sections[sectionIndex][entryIndex][cellIndex] === 'correct') {
             cellState = 'blue-cell';
@@ -280,13 +287,13 @@ export default class DraftCard extends Component {
             cellState = 'red-cell';
         }
         let colVal = 5;
-        if (this.state.card.contestants.length != 2) {
+        if (this.state.card.contestants.length !== 2) {
             colVal = 12 / this.state.card.contestants.length;
-        } else if (graded == 'wager') {
+        } else if (graded === 'wager') {
             colVal = 3;
         }
         return (
-            <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded, pick.wager ?? 0)} className={cellState + " col-" + colVal + " text-center"}>{pick.pick}</th>
+            <th onClick={() => this.handleSelection(sectionIndex, entryIndex, cellIndex, graded, pick.wager ?? 0, pointValue)} className={cellState + " col-" + colVal + " text-center"}>{pick.pick}</th>
         )
     }
 
@@ -307,7 +314,7 @@ export default class DraftCard extends Component {
 
     renderSection(section, round, sectionIndex) {
         let collapse = `${this.state.card.contestants.length}`;
-        if (collapse == '2') {
+        if (collapse === '2') {
             collapse = '3'
         }
         return (
@@ -325,9 +332,9 @@ export default class DraftCard extends Component {
                     return (
                         <tr className="d-flex">
                             {row.map((pick, pickIndex) => {
-                                if (pickIndex == 1 && row.length == 2) {
+                                if (pickIndex === 1 && row.length === 2) {
                                     let colVal = 2;
-                                    if (section.graded == 'wager') {
+                                    if (section.graded === 'wager') {
                                         colVal = 6;
                                     }
                                     const label = Array.isArray(section.roundLabel) ? 
@@ -337,15 +344,15 @@ export default class DraftCard extends Component {
                                     return (
                                         <>
                                             <th className={`white-cell col-${colVal} text-center row-th`}>
-                                                {section.graded == 'wager' ? label :
+                                                {section.graded === 'wager' || section.graded === 'wagerLiteral' ? label :
                                                     <h3>{label}</h3>
                                                 }
                                             </th>
-                                            {this.makeCell(pick, sectionIndex, rowIndex, pickIndex, section.graded)}
+                                            {this.makeCell(pick, sectionIndex, rowIndex, pickIndex, section.graded, section.pointValue)}
                                         </>
                                     )
                                 }
-                                return this.makeCell(pick, sectionIndex, rowIndex, pickIndex, section.graded)
+                                return this.makeCell(pick, sectionIndex, rowIndex, pickIndex, section.graded, section.pointValue)
                             })}
                         </tr>
                     )
@@ -399,9 +406,9 @@ export default class DraftCard extends Component {
                                     <tr className="d-flex">
                                         {this.state.card.contestants.map((contestant, cIndex) => {
                                             let col = 'col-6';
-                                            if (this.state.card.contestants.length == 2) {
+                                            if (this.state.card.contestants.length === 2) {
                                                 col = 'col-5';
-                                                if (cIndex == 1) {
+                                                if (cIndex === 1) {
                                                     return (
                                                         <>
                                                             <th className="col-2 text-center row-th">
@@ -418,7 +425,7 @@ export default class DraftCard extends Component {
                                                         </>
                                                     )
                                                 }
-                                            } else if (this.state.card.contestants.length == 3) {
+                                            } else if (this.state.card.contestants.length === 3) {
                                                 col = 'col-4';
                                             }
                                             return (
@@ -442,11 +449,11 @@ export default class DraftCard extends Component {
                                     <tr className="d-flex">
                                         {this.state.card.contestants.map((contestant, contestantIndex) => {
                                             let colVal = 5;
-                                            if (this.state.card.contestants.length != 2) {
+                                            if (this.state.card.contestants.length !== 2) {
                                                 colVal = 12 / this.state.card.contestants.length;
                                             }
                                             const returning = [];
-                                            if (contestantIndex == 1 && this.state.card.contestants.length == 2) {
+                                            if (contestantIndex === 1 && this.state.card.contestants.length === 2) {
                                                 returning.push(<th className="col-2 text-center row-th total-cell">
                                                     <h3>Total</h3>
                                                 </th>);

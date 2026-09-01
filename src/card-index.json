@@ -3,7 +3,16 @@
     "banner": "...",
     "cards": [
         {
-            "name": "Apple WWDC 2026 Keynote",
+            "name": "Apple \"Surprise and shine.\" Event",
+            "date": "September 2026",
+            "img": "/img/cards/apple092026.jpg",
+            "card": "apple092026",
+            "tags": [
+                "active"
+            ]
+        },
+        {
+            "name": "Apple WWDC26 Keynote",
             "date": "June 2026",
             "img": "/img/cards/apple062026.jpg",
             "card": "apple062026",
@@ -46,7 +55,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2025 Keynote",
+            "name": "Apple WWDC25 Keynote",
             "date": "June 2025",
             "img": "/img/cards/apple062025.jpg",
             "card": "apple062025",
@@ -90,7 +99,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2024 Keynote",
+            "name": "Apple WWDC24 Keynote",
             "date": "June 2024",
             "img": "/img/cards/apple062024.jpg",
             "card": "apple062024",
@@ -142,7 +151,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2023 Keynote",
+            "name": "Apple WWDC23 Keynote",
             "date": "June 2023",
             "img": "/img/cards/apple062023.jpg",
             "card": "apple062023",
@@ -166,7 +175,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2022 Keynote",
+            "name": "Apple WWDC22 Keynote",
             "date": "June 2022",
             "img": "/img/cards/apple062022.jpg",
             "card": "apple062022",
@@ -223,7 +232,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2021 Keynote",
+            "name": "Apple WWDC21 Keynote",
             "date": "June 2021",
             "img": "/img/cards/apple062021.jpg",
             "card": "apple062021",
@@ -278,7 +287,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2020 Keynote",
+            "name": "Apple WWDC20 Keynote",
             "date": "June 2020",
             "img": "/img/cards/apple062020.jpg",
             "card": "apple062020",
@@ -310,7 +319,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2019 Keynote",
+            "name": "Apple WWDC19 Keynote",
             "date": "June 2019",
             "img": "/img/cards/apple062019.jpg",
             "card": "apple062019",
@@ -353,7 +362,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2018 Keynote",
+            "name": "Apple WWDC18 Keynote",
             "date": "June 2018",
             "img": "/img/cards/apple062018.jpg",
             "card": "apple062018",
@@ -386,7 +395,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2017 Keynote",
+            "name": "Apple WWDC17 Keynote",
             "date": "June 2017",
             "img": "/img/cards/apple062017.jpg",
             "card": "apple062017",
@@ -420,7 +429,7 @@
             ]
         },
         {
-            "name": "Apple WWDC 2016 Keynote",
+            "name": "Apple WWDC16 Keynote",
             "date": "June 2016",
             "img": "/img/cards/apple062016.jpg",
             "card": "apple062016",

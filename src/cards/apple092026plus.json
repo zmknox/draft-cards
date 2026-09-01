@@ -1,0 +1,190 @@
+{
+    "name": "The Upgrade+ September 2026 St. Jude Challenge",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade+ 635",
+    "link": "https://relay.fm/upgrade/635",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell3.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke6.jpg"
+        }
+    ],
+    "topnote": [
+        {
+            "text": "Points are earned towards the Myke vs Stephen battle throughout September (Jason's points are for Stephen). For round one, points wagered are earned if the phrase is said during the keynote."
+        },
+        {
+            "text": "Donate at ",
+            "link": {
+                "name": "stjude.org/relay",
+                "url": "https://stjude.org/relay"
+            }
+        }
+    ],
+    "sections": [
+        {
+            "name": "Heard during the keynote",
+            "graded": "wagerLiteral",
+            "roundLabel": [
+                "Cosmic Orange",
+                "Dark Cherry",
+                "Crease",
+                "Split View",
+                "Tim Cook",
+                "Thinnest _____ ever",
+                "Most advanced camera ever",
+                "In Your Pocket",
+                "One More Thing"
+            ],
+            "entries": [
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": false
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "5",
+                        "wager": 5,
+                        "correct": false
+                    },
+                    {
+                        "pick": "2",
+                        "wager": 2,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": true
+                    },
+                    {
+                        "pick": "1",
+                        "wager": 1,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    },
+                    {
+                        "pick": "0",
+                        "wager": 0,
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": false
+                    },
+                    {
+                        "pick": "3",
+                        "wager": 3,
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Folding iPhone name picks",
+            "graded": true,
+            "pointValue": 10,
+            "roundLabel": [
+                "Bonus",
+                "Bonus"
+            ],
+            "entries": [
+                [
+                    {
+                        "pick": "iPhone Duo",
+                        "correct": false
+                    },
+                    {
+                        "pick": "iPhone Studio",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone Ultra",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone Fold",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}

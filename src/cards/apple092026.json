@@ -1,0 +1,190 @@
+{
+    "name": "The Upgrade September 2026 Event Draft",
+    "preLinkText": "As heard on ",
+    "linkText": "Upgrade 635",
+    "link": "https://relay.fm/upgrade/635",
+    "finished": false,
+    "contested": false,
+    "contestants": [
+        {
+            "name": "Jason",
+            "link": "https://zeppelin.flights/@jsnell",
+            "icon": "/img/avatars/snell3.png"
+        },
+        {
+            "name": "Myke",
+            "link": "https://myke.social/@imyke",
+            "icon": "/img/avatars/myke6.jpg"
+        }
+    ],
+    "topnote": [
+        {
+            "text": "See Also: the",
+            "link": {
+                "name": "St. Jude Challenge",
+                "url": "/card/apple092026plus"
+            }
+        }
+    ],
+    "sections": [
+        {
+            "name": "iPhone picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "iPhones powered by new 2nm chip",
+                        "correct": true
+                    },
+                    {
+                        "pick": "One iPhone color contains the word blue",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Folding iPhone supports Split View",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple brands folding iPhone display",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Folding iPhone uses Touch ID button only",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple introduces new features for apps running on folding iPhone’s internal display",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple will make specific boast about on-device AI performance on A20",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Apple makes specific claim about how there’s (essentially) no crease on folding iPhone",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple doesn’t mention anything about base model iPhone 18s not being announced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "At least one new photo-related OS feature added to iOS (beyond what we’ve already seen)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "New satellite connectivity features on iPhone",
+                        "correct": false
+                    },
+                    {
+                        "pick": "Claim of improved iPhone battery life",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Folding iPhone comes in monochrome colors (white/silver/black/gray)",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Folding iPhone is thinnest Apple device ever (13” iPad Pro is 5.1mm thick)",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "iPhone Pro models starting price is $200 or more above previous generation",
+                        "correct": true
+                    },
+                    {
+                        "pick": "iPhone Pro models starting price is $100-$199 more than previous generation",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Other picks",
+            "graded": true,
+            "entries": [
+                [
+                    {
+                        "pick": "Watch Series 12 has ceramic option",
+                        "correct": false
+                    },
+                    {
+                        "pick": "John Ternus has major role in unveiling at least one product",
+                        "correct": true
+                    }
+                ],
+                [
+                    {
+                        "pick": "Watch Series 12 has new chip",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Previously unseen Watch faces are mentioned",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "Apple Watch Ultra 4 introduced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "“HomePad” device announced",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "New HomePods announced",
+                        "correct": true
+                    },
+                    {
+                        "pick": "New Apple Watch models have enhanced Siri AI support",
+                        "correct": false
+                    }
+                ],
+                [
+                    {
+                        "pick": "“HomePad” shown/described docking with/sold with its own good speaker",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Watch Series 12 adds new workout feature",
+                        "correct": false
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Tiebreaker: Will the event be over or under 1 hour 35 minutes?",
+            "graded": false,
+            "roundLabel": "Tie?",
+            "entries": [
+                [
+                    {
+                        "pick": "Under",
+                        "correct": true
+                    },
+                    {
+                        "pick": "Over or equal",
+                        "correct": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
