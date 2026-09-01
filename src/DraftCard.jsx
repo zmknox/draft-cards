@@ -1,7 +1,6 @@
 /* eslint-disable default-case */
 import React, { Component } from 'react';
 import './DraftCard.css';
-import { Link } from 'react-router-dom';
 import { Container, Row, Col, Table, Image, Jumbotron, Button } from 'react-bootstrap';
 
 export default class DraftCard extends Component {
@@ -30,16 +29,16 @@ export default class DraftCard extends Component {
             let i = 0;
             for (let entry of section.entries) {
                 let cells = [];
-                for (let _ of entry) {
+                entry.forEach(() => {
                     cells.push('undecided');
                     // TODO in future: Potentially default to known results
-                }
+                });
                 entries.push(cells);
                 if (i === 0) {
-                    for (let contestant of this.state.card.contestants) {
+                    this.state.card.contestants.forEach(() => {
                         sectionScore.push(0);
                         sectionTotal.push(0);
-                    }
+                    });
                     // if (sectionScore.length === 1) {
                     //     sectionScore.push(-99999999);
                     // }
@@ -56,9 +55,9 @@ export default class DraftCard extends Component {
         this.state.sectionTotals = sectionTotals;
 
         let totals = [];
-        for (let _ of this.state.card.contestants) {
+        this.state.card.contestants.forEach(() => {
             totals.push(0);
-        }
+        });
         this.state.totals = totals;
     }
 
@@ -81,16 +80,16 @@ export default class DraftCard extends Component {
             let i = 0;
             for (let entry of section.entries) {
                 let cells = [];
-                for (let _ of entry) {
+                entry.forEach(() => {
                     cells.push('undecided');
                     // TODO in future: Potentially default to known results
-                }
+                });
                 entries.push(cells);
                 if (i === 0) {
-                    for (let contestant of this.state.card.contestants) {
+                    this.state.card.contestants.forEach(() => {
                         sectionScore.push(0);
                         sectionTotal.push(0);
-                    }
+                    });
                     // if (sectionScore.length === 1) {
                     //     sectionScore.push(-99999999);
                     // }
@@ -364,7 +363,7 @@ export default class DraftCard extends Component {
     render() {
         let round = 1;
         let collapse = `${this.state.card.contestants.length}`;
-        if (collapse == '2') {
+        if (collapse === '2') {
             collapse = '3'
         }
         return (
